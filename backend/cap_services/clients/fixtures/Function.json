@@ -1,0 +1,68 @@
+[
+{
+  "model": "clients.function",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:05:06.594Z",
+    "updated_time": "2021-02-23T13:07:29.649Z",
+    "company": null,
+    "function_type": "1"
+  }
+},
+{
+  "model": "clients.function",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:05:24.559Z",
+    "updated_time": "2021-02-23T13:07:36.332Z",
+    "company": null,
+    "function_type": "2"
+  }
+},
+{
+  "model": "clients.function",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:16:56.450Z",
+    "updated_time": "2021-02-23T13:07:44.868Z",
+    "company": null,
+    "function_type": "3"
+  }
+},
+{
+  "model": "clients.function",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:17:07.454Z",
+    "updated_time": "2021-02-23T13:07:56.622Z",
+    "company": null,
+    "function_type": "4"
+  }
+},
+{
+  "model": "clients.function",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:17:17.451Z",
+    "updated_time": "2021-02-23T13:08:05.384Z",
+    "company": null,
+    "function_type": "5"
+  }
+},
+{
+  "model": "clients.function",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:17:26.895Z",
+    "updated_time": "2021-02-23T13:08:12.017Z",
+    "company": null,
+    "function_type": "6"
+  }
+}
+]

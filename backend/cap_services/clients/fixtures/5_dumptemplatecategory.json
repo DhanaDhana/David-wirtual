@@ -1,0 +1,68 @@
+[
+{
+  "model": "clients.templatecategory",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-08-26T18:00:07.060Z",
+    "updated_time": "2020-10-09T04:32:04.040Z",
+    "temp_type": "1",
+    "temp_category": "5"
+  }
+},
+{
+  "model": "clients.templatecategory",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-08-26T18:00:15.530Z",
+    "updated_time": "2020-10-09T04:31:57.074Z",
+    "temp_type": "1",
+    "temp_category": "6"
+  }
+},
+{
+  "model": "clients.templatecategory",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-09T04:30:33.236Z",
+    "updated_time": "2020-10-09T04:31:52.531Z",
+    "temp_type": "1",
+    "temp_category": "4"
+  }
+},
+{
+  "model": "clients.templatecategory",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-09T04:31:21.233Z",
+    "updated_time": "2020-10-09T04:31:47.089Z",
+    "temp_type": "1",
+    "temp_category": "3"
+  }
+},
+{
+  "model": "clients.templatecategory",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-09T04:31:32.310Z",
+    "updated_time": "2020-10-09T04:31:41.386Z",
+    "temp_type": "1",
+    "temp_category": "2"
+  }
+},
+{
+  "model": "clients.templatecategory",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-09T04:32:19.533Z",
+    "updated_time": "2020-10-09T04:32:19.533Z",
+    "temp_type": "2",
+    "temp_category": "1"
+  }
+}
+]

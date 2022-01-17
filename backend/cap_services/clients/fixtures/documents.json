@@ -1,0 +1,77 @@
+[
+{
+  "model": "clients.document",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-09-03T17:14:26.587Z",
+    "updated_time": "2020-12-09T15:36:26.564Z",
+    "uploaded_by": [
+      "capsuperuser2020@outlook.com"
+    ],
+    "owner": null,
+    "doc_type": "6",
+    "doc": "advisors/company/Lathe_logo.png"
+  }
+},
+{
+  "model": "clients.document",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-07T07:02:32.307Z",
+    "updated_time": "2020-10-07T07:02:32.307Z",
+    "uploaded_by": [
+      "capsuperuser2020@outlook.com"
+    ],
+    "owner": null,
+    "doc_type": "6",
+    "doc": "advisors/company/david-logo.png"
+  }
+},
+{
+  "model": "clients.document",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-24T11:30:39.702Z",
+    "updated_time": "2020-11-24T11:30:39.702Z",
+    "uploaded_by": [
+      "capsuperuser2020@outlook.com"
+    ],
+    "owner": null,
+    "doc_type": "6",
+    "doc": "advisors/company/payment-details.jpg"
+  }
+},
+{
+  "model": "clients.document",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-23T08:35:07.688Z",
+    "updated_time": "2020-12-23T08:35:07.688Z",
+    "uploaded_by": [
+      "capsuperuser2020@outlook.com"
+    ],
+    "owner": null,
+    "doc_type": "1",
+    "doc": "cap/brochures/BR19.pdf"
+  }
+},
+{
+  "model": "clients.document",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-23T08:35:07.688Z",
+    "updated_time": "2020-12-23T08:35:07.688Z",
+    "uploaded_by": [
+      "capsuperuser2020@outlook.com"
+    ],
+    "owner": null,
+    "doc_type": "19",
+    "doc": "master/sr_document/SR_cover_page_window.docx"
+  }
+}
+]

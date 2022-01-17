@@ -1,0 +1,10 @@
+.env
+*.pyc
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+__pycache__/
+#media    ##to upload web images- static 
+.directory
+#media

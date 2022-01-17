@@ -1,0 +1,1 @@
+default_app_config = 'outlook_app.apps.OutlookAppConfig'

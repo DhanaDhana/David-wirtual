@@ -1,0 +1,19 @@
+[
+{
+  "model": "clients.company",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-07-28T08:52:06.242Z",
+    "updated_time": "2021-04-07T01:46:06.409Z",
+    "name": "LATHE & CO",
+    "url": "www.latheandco.co.uk",
+    "logo": "advisors/company/Lathe_Logo.png",
+    "mortgage_broker_mail": "capsuperuser2020@gmail.com",
+    "mortgage_broker_first_name": "Jake",
+    "mortgage_broker_last_name": "Carney",
+    "is_client_company": false,
+    "default_advisor_fee": 0
+  }
+}
+]

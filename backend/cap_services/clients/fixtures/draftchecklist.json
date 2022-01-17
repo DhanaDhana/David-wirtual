@@ -1,0 +1,927 @@
+[
+{
+  "model": "clients.draftchecklist",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-16T10:24:50.984Z",
+    "updated_time": "2021-02-16T10:24:50.984Z",
+    "checklist_names": "Is there sufficient information to demonstrate affordability?",
+    "category_name": "1",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-16T10:25:14.351Z",
+    "updated_time": "2021-02-16T10:25:14.351Z",
+    "checklist_names": "Have the client\u2019s income and expenditure details been recorded?",
+    "category_name": "1",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-16T10:25:47.700Z",
+    "updated_time": "2021-02-16T10:25:47.700Z",
+    "checklist_names": "Are details of the client\u2019s current employer\u2019s scheme held on file?",
+    "category_name": "1",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-18T07:48:58.083Z",
+    "updated_time": "2021-02-18T07:48:58.083Z",
+    "checklist_names": "Is all relevant information regarding the client documented?",
+    "category_name": "1",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-18T08:08:29.531Z",
+    "updated_time": "2021-02-18T08:08:29.531Z",
+    "checklist_names": "Is the disclosure document consistent with the charges being applied?",
+    "category_name": "3",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-18T08:08:52.030Z",
+    "updated_time": "2021-07-07T07:20:51.601Z",
+    "checklist_names": "Has a customer privacy notice been given to the client?",
+    "category_name": "3",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-18T08:09:15.460Z",
+    "updated_time": "2021-02-18T08:09:15.460Z",
+    "checklist_names": "Does the firm/adviser have the required FCA Permissions",
+    "category_name": "5",
+    "checklist_group": "Advisor",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:15:53.173Z",
+    "updated_time": "2021-06-16T08:38:07.375Z",
+    "checklist_names": "Is the client\u2019s investment experience and knowledge recorded?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-07T10:43:09.597Z",
+    "updated_time": "2021-06-16T08:38:22.485Z",
+    "checklist_names": "Are the levels of risk clearly quantified and explained?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-07T10:44:07.887Z",
+    "updated_time": "2021-06-16T08:38:40.483Z",
+    "checklist_names": "Does the file clearly document the client\u2019s ATR?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-07T10:44:32.651Z",
+    "updated_time": "2021-07-06T13:22:15.256Z",
+    "checklist_names": "Are there copies of the fact find and risk profiling approaches/tools on file?",
+    "category_name": "10",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-10T10:51:11.539Z",
+    "updated_time": "2021-07-07T07:21:29.345Z",
+    "checklist_names": "Is the client entitled to or in receipt of any state benefits? Are these means tested?",
+    "category_name": "5",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-10T10:51:59.727Z",
+    "updated_time": "2021-06-16T08:39:18.108Z",
+    "checklist_names": "Does this tie in with client\u2019s other investments?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-10T10:52:27.258Z",
+    "updated_time": "2021-06-16T08:39:32.076Z",
+    "checklist_names": "Has risk been discussed in relation to the client\u2019s wider investment portfolio?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-10T10:53:12.608Z",
+    "updated_time": "2021-06-16T08:39:43.616Z",
+    "checklist_names": "Has capacity for loss been documented on file?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-10T11:10:46.184Z",
+    "updated_time": "2021-06-16T08:39:58.057Z",
+    "checklist_names": "Is the client willing and able to accept the risk of loss of capital?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-18T10:52:52.191Z",
+    "updated_time": "2021-05-18T10:52:52.191Z",
+    "checklist_names": "Is there a sufficient emergency fund?",
+    "category_name": "5",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 18,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-19T10:53:21.939Z",
+    "updated_time": "2021-06-16T08:40:12.932Z",
+    "checklist_names": "Does the client\u2019s attitude to risk suit their stated objectives?",
+    "category_name": "8",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 19,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-20T13:46:22.183Z",
+    "updated_time": "2021-07-07T07:37:04.370Z",
+    "checklist_names": "If the recommendation is \u2018off panel\u2019 from either a centralised investment proposition or restricted proposition, is there research to justify this?",
+    "category_name": "7",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 20,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-20T13:46:22.183Z",
+    "updated_time": "2021-06-14T11:40:26.313Z",
+    "checklist_names": "Has a critical yield comparison been carried out and on file?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-21T12:03:27.466Z",
+    "updated_time": "2021-06-14T11:40:47.762Z",
+    "checklist_names": "Is the critical yield achievable?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 22,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-21T12:04:27.777Z",
+    "updated_time": "2021-06-14T11:41:02.778Z",
+    "checklist_names": "Has the adviser decency charging been checked?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-24T13:12:51.729Z",
+    "updated_time": "2021-06-14T11:41:17.127Z",
+    "checklist_names": "What are the driving factors for the transfer?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T19:10:03.515Z",
+    "updated_time": "2021-05-27T19:10:03.515Z",
+    "checklist_names": "Does the illustration on file accurately reflect the product recommended?",
+    "category_name": "9",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 25,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T19:10:25.268Z",
+    "updated_time": "2021-05-27T19:10:25.268Z",
+    "checklist_names": "Does the illustration match the client details and requirements?",
+    "category_name": "9",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 26,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T19:10:50.031Z",
+    "updated_time": "2021-05-27T19:10:50.031Z",
+    "checklist_names": "Does the illustration include the adviser charge where this is being facilitated via the product?",
+    "category_name": "9",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-28T08:12:16.191Z",
+    "updated_time": "2021-06-18T08:11:38.484Z",
+    "checklist_names": "Is the application summary on file?",
+    "category_name": "14",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-28T08:13:05.906Z",
+    "updated_time": "2021-06-18T08:12:03.379Z",
+    "checklist_names": "Does it match the recommendation being made?",
+    "category_name": "14",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 29,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-28T08:27:15.998Z",
+    "updated_time": "2021-07-07T07:23:07.838Z",
+    "checklist_names": "Dates of documents being produced in order  (LOA, Illustration, ATP, App summary, SR)",
+    "category_name": "10",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 30,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-28T08:30:47.651Z",
+    "updated_time": "2021-07-07T07:23:52.686Z",
+    "checklist_names": "Is there sufficient information to justify the advice e.g. Income, Expenditure, Affordability, Details of existing scheme, Soft facts, Objectives, ATR?",
+    "category_name": "10",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 31,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-31T07:46:46.437Z",
+    "updated_time": "2021-05-31T07:46:46.437Z",
+    "checklist_names": "Is the client being classified other than a retail client?",
+    "category_name": "11",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 32,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-31T07:47:26.908Z",
+    "updated_time": "2021-05-31T07:47:26.908Z",
+    "checklist_names": "Is the client a vulnerable client?",
+    "category_name": "11",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 33,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-03T14:51:20.499Z",
+    "updated_time": "2021-06-03T14:51:20.499Z",
+    "checklist_names": "Is there research on file to justify the provider (including platform/wrap)?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 34,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-03T14:51:34.494Z",
+    "updated_time": "2021-06-03T14:51:34.494Z",
+    "checklist_names": "Does the criteria for the provider selection meet the requirements of the client?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 35,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-04T16:31:10.113Z",
+    "updated_time": "2021-06-04T16:31:10.113Z",
+    "checklist_names": "Is there evidence on file to confirm a KFD and illustration have been issued to client?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 36,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-05T07:33:44.113Z",
+    "updated_time": "2021-06-05T07:33:44.113Z",
+    "checklist_names": "What are the reasons for considering a transfer?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 37,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-05T14:32:05.377Z",
+    "updated_time": "2021-06-05T14:32:05.377Z",
+    "checklist_names": "If limited advice has been given does the report confirm this?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 38,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T07:13:24.144Z",
+    "updated_time": "2021-06-08T07:13:24.144Z",
+    "checklist_names": "Have alternative products been considered?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 39,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T07:15:40.220Z",
+    "updated_time": "2021-06-08T07:15:40.220Z",
+    "checklist_names": "Have reasons been given for discounting these?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 40,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T08:33:51.617Z",
+    "updated_time": "2021-07-07T08:01:55.488Z",
+    "checklist_names": "Are full details of the product recommendation included? Type of pension? e.g. PP, SIPP Transfer amount?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 41,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T10:09:45.540Z",
+    "updated_time": "2021-06-09T08:29:04.543Z",
+    "checklist_names": "Has the client\u2019s ATR been increased/decreased to meet a specific need/objective?",
+    "category_name": "5",
+    "checklist_group": "Advisor",
+    "product_type": [
+      1,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 42,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T18:15:24.501Z",
+    "updated_time": "2021-07-07T07:27:47.753Z",
+    "checklist_names": "What are the client\u2019s objectives? e.g. Retirement age, Income required in retirement",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 43,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T18:15:37.515Z",
+    "updated_time": "2021-06-08T18:15:37.515Z",
+    "checklist_names": "Are the details of the priority each objective has been given clear?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 44,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T18:15:50.029Z",
+    "updated_time": "2021-06-08T18:15:50.029Z",
+    "checklist_names": "Explanation of why these have been agreed with client?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 45,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T18:16:01.849Z",
+    "updated_time": "2021-06-08T18:16:01.849Z",
+    "checklist_names": "What are the timescales for each objective?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 46,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-08T18:27:38.263Z",
+    "updated_time": "2021-06-08T18:27:38.263Z",
+    "checklist_names": "Does the report record the client\u2019s objectives and priorities?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 47,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T08:22:07.296Z",
+    "updated_time": "2021-06-09T08:22:07.296Z",
+    "checklist_names": "Is full and complete know your client (KYC) information/fact find on file?",
+    "category_name": "6",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 48,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T08:24:21.753Z",
+    "updated_time": "2021-06-14T11:41:31.150Z",
+    "checklist_names": "Does the ceding scheme carry more than 25% TFC proof on file?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 49,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T08:26:13.642Z",
+    "updated_time": "2021-06-14T23:49:22.258Z",
+    "checklist_names": "Are full details of the ceding scheme retained on file?",
+    "category_name": "13",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 50,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T08:46:59.938Z",
+    "updated_time": "2021-06-09T08:46:59.938Z",
+    "checklist_names": "Does the report record how the recommendation benefits the client?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 51,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T10:36:18.140Z",
+    "updated_time": "2021-06-09T10:36:18.140Z",
+    "checklist_names": "Has the report been signed and dated by the adviser?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 52,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T12:32:13.875Z",
+    "updated_time": "2021-07-07T07:28:36.876Z",
+    "checklist_names": "For clients over 75, does the report evidence that the client was given the opportunity to have a friend or relative accompany them at the meeting?",
+    "category_name": "11",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 53,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T17:54:20.118Z",
+    "updated_time": "2021-06-09T17:54:20.118Z",
+    "checklist_names": "Have advice charges been recorded (ongoing and initial)?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 54,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T17:55:22.303Z",
+    "updated_time": "2021-06-09T17:55:22.303Z",
+    "checklist_names": "Have product charges been noted?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 55,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T09:31:38.462Z",
+    "updated_time": "2021-06-10T09:31:38.462Z",
+    "checklist_names": "The report should contain relevant statements summarising the client\u2019s personal and financial situation.",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": []
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 56,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T09:41:19.310Z",
+    "updated_time": "2021-06-10T09:41:19.310Z",
+    "checklist_names": "Does the report contain details of the client\u2019s employer\u2019s workplace pension scheme?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 57,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T09:50:20.987Z",
+    "updated_time": "2021-06-10T09:50:20.987Z",
+    "checklist_names": "Are the clients pensions/assets and projected income from those explained and detailed?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 58,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T09:54:09.920Z",
+    "updated_time": "2021-06-10T09:54:09.920Z",
+    "checklist_names": "Does the report confirm whether contributions are being made into any pension arrangements?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 59,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T18:32:45.701Z",
+    "updated_time": "2021-06-10T18:32:45.701Z",
+    "checklist_names": "Does the report document that a nomination of a beneficiary was discussed?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 60,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T19:04:13.334Z",
+    "updated_time": "2021-06-10T19:04:13.334Z",
+    "checklist_names": "Does the report confirm the level of future service the client has selected?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 61,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T19:32:47.639Z",
+    "updated_time": "2021-06-10T19:32:47.639Z",
+    "checklist_names": "Does the report confirm (potential) risks and disadvantages of the recommended transfer for the client to consider?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "clients.draftchecklist",
+  "pk": 62,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-10T19:33:31.182Z",
+    "updated_time": "2021-06-10T19:33:31.182Z",
+    "checklist_names": "Have any relevant tax implications been recorded?",
+    "category_name": "12",
+    "checklist_group": "Compliance",
+    "product_type": [
+      1,
+      3,
+      4,
+      5
+    ]
+  }
+}
+]

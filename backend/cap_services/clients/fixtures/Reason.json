@@ -1,0 +1,1211 @@
+[
+{
+  "model": "clients.reason",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:06:17.493Z",
+    "updated_time": "2021-05-06T20:31:41.714Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Consolidation",
+    "description": "Consolidate your pensions for ease of administration"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:06:29.915Z",
+    "updated_time": "2021-05-06T20:31:55.474Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Wider fund choice",
+    "description": "To access a wider range of funds and investment options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:06:53.951Z",
+    "updated_time": "2021-05-06T20:32:02.418Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Multiple investments on one platform",
+    "description": "To enable you to have multiple investment vehicles on one platform"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:03.145Z",
+    "updated_time": "2021-05-06T20:32:10.261Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Receive ongoing advice",
+    "description": "To receive ongoing advice now and throughout retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:12.411Z",
+    "updated_time": "2021-05-06T20:32:21.526Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Maximise growth and performance",
+    "description": "To try and maximise growth and performance in order to improve retirement income"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:22.295Z",
+    "updated_time": "2021-05-06T20:32:30.090Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Access drawdown now",
+    "description": "In order to drawdown and access income or tax free cash from your pension"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:31.797Z",
+    "updated_time": "2021-05-06T20:32:36.757Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Reduce costs",
+    "description": "To try and reduce the overall running cost of your pensions"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:42.741Z",
+    "updated_time": "2021-05-06T20:32:42.983Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "One manageable platform",
+    "description": "You would like one easy to manage, online platform, professionally managed over time to suit your goals and objectives between now and retirement age"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:07:56.209Z",
+    "updated_time": "2021-05-06T20:32:50.030Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "No penalty to transfer",
+    "description": "There would be no financial penalty incurred on transfer"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:08:05.700Z",
+    "updated_time": "2021-05-06T20:32:57.401Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Currently in With Profits",
+    "description": "Your pension is invested within a with profits fund, which is invested within passive trackers. Going forward, you want to adopt a more active approach, with your funds not being exposed to cyclical investment patterns"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:08:14.961Z",
+    "updated_time": "2021-05-06T20:33:04.129Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Currently in Lifestyling",
+    "description": "Your pension is invested within a lifestyling investment strategy, which is invested within passive trackers. Going forward, you want to adopt a more active approach, with your funds not being exposed to cyclical investment patterns"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:08:56.758Z",
+    "updated_time": "2021-05-06T20:33:13.152Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Invest in line with ATR",
+    "description": "As lifestyling funds naturally de risk the closer you get to your selected retirement date, your pension would not be aligned with your attitude to risk over the next few years"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:09:06.608Z",
+    "updated_time": "2021-05-06T20:33:20.389Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Active fund management",
+    "description": "You wish to actively manage your pension funds until you reach retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:09:16.246Z",
+    "updated_time": "2021-05-06T20:33:27.523Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Current pensions restrictive",
+    "description": "Your previous workplace pensions benefit from group discount benefits. Although they have reduced charges, these schemes are naturally more restrictive with regards to investment strategies and retirement options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:09:26.069Z",
+    "updated_time": "2021-05-06T20:33:34.997Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Limited fund choice",
+    "description": "There is only a limited number of available funds among the plans you hold"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:09:36.908Z",
+    "updated_time": "2021-05-06T20:33:45.499Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "Plan younger than 5 years old",
+    "description": "Please note I would not normally recommend transferring a plan within 5 years of inception; however, you are happy to continue due to the reasons highlighted throughout."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:09:45.819Z",
+    "updated_time": "2021-05-06T20:33:53.329Z",
+    "product_type": 1,
+    "function": 1,
+    "reason": "No drawdown functionality",
+    "description": "The current pension you have does not facilitate drawdown which is something you wish to have access to in retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 18,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:55:09.706Z",
+    "updated_time": "2021-05-06T20:34:27.586Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Consolidation",
+    "description": "Consolidate your Investments for ease of administration"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 19,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:55:23.908Z",
+    "updated_time": "2021-05-06T20:34:34.240Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Reduce cost",
+    "description": "To try and reduce the overall running cost of your Investments"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 20,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:55:39.259Z",
+    "updated_time": "2021-05-06T20:34:41.302Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Access to more investments",
+    "description": "To access a wider range of funds and investment options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:55:57.609Z",
+    "updated_time": "2021-05-06T20:34:50.843Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Mulitple investments on platform",
+    "description": "To enable you to have multiple investment vehicles on one platform"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 22,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:56:13.808Z",
+    "updated_time": "2021-05-06T20:35:02.798Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Ongoing advice",
+    "description": "To receive ongoing advice on your investments"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:58:07.010Z",
+    "updated_time": "2021-05-06T20:35:09.505Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Maximise growth and performance",
+    "description": "To try and maximise growth and performance in order to improve capital and income"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:58:24.929Z",
+    "updated_time": "2021-05-06T20:35:16.790Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "One online platform to meet needs",
+    "description": "You would like one easy to manage, online platform, professionally managed over time to meet your goals and objectives"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 25,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:59:03.008Z",
+    "updated_time": "2021-05-06T20:35:25.586Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "No penalty to transfer",
+    "description": "There would be no financial penalty incurred on transfer"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 26,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:59:23.507Z",
+    "updated_time": "2021-05-06T20:35:33.665Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Limited number of funds currently",
+    "description": "There is only a limited number of available funds among the plans you hold. You would like to transfer in order to access more investment options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T13:59:42.706Z",
+    "updated_time": "2021-05-06T20:36:03.440Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Despite increase in cost - better funds",
+    "description": "You feel that despite the increase in cost you would like access to a wider range of better performing, actively managed funds"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:00:04.432Z",
+    "updated_time": "2021-05-06T20:36:21.930Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Despite increase in cost - better returns",
+    "description": "You realise that the new Lathe portfolio of funds is more expensive and therefore will increase the charges associated with the plan. You feel that despite the increase in charges, in the long run your pension could potentially benefit from higher returns"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 29,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:00:21.316Z",
+    "updated_time": "2021-05-06T20:36:47.913Z",
+    "product_type": 3,
+    "function": 1,
+    "reason": "Fidelity/Redington access",
+    "description": "The Fidelity platform enables you access to institutional funds and rebates on Redington portfolios"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 30,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:00:50.579Z",
+    "updated_time": "2021-05-06T20:36:58.658Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Consolidation",
+    "description": "Consolidate your Investments for ease of administration"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 31,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:01:03.166Z",
+    "updated_time": "2021-05-06T20:37:05.460Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Reduce cost",
+    "description": "To try and reduce the overall running cost of your Investments"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 32,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:01:20.085Z",
+    "updated_time": "2021-05-06T20:37:12.768Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Access to more investments",
+    "description": "To access a wider range of funds and investment options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 33,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T14:01:39.198Z",
+    "updated_time": "2021-05-06T20:37:18.699Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Mulitple investments on platform",
+    "description": "To enable you to have multiple investment vehicles on one platform"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 34,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:13:22.728Z",
+    "updated_time": "2021-05-06T20:37:24.944Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Ongoing advice",
+    "description": "To receive ongoing advice on your investments"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 35,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:13:58.663Z",
+    "updated_time": "2021-05-06T20:37:31.771Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Maximise growth and performance",
+    "description": "To try and maximise growth and performance in order to improve capital and income"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 36,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:14:13.711Z",
+    "updated_time": "2021-05-06T20:37:38.454Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "One online platform to meet needs",
+    "description": "You would like one easy to manage, online platform, professionally managed over time to meet your goals and objectives"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 37,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:14:27.029Z",
+    "updated_time": "2021-05-06T20:37:45.083Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "No penalty to transfer",
+    "description": "There would be no financial penalty incurred on transfer"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 38,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:14:40.691Z",
+    "updated_time": "2021-05-06T20:37:53.713Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Limited number of funds currently",
+    "description": "There is only a limited number of available funds among the plans you hold. You would like to transfer in order to access more investment options"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 39,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:15:04.815Z",
+    "updated_time": "2021-05-06T20:38:00.122Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Despite increase in cost - better funds",
+    "description": "You feel that despite the increase in cost you would like access to a wider range of better performing, actively managed funds"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 40,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:15:25.302Z",
+    "updated_time": "2021-05-06T20:38:06.255Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Despite increase in cost - better returns",
+    "description": "You realise that the new Lathe portfolio of funds is more expensive and therefore will increase the charges associated with the plan. You feel that despite the increase in charges, in the long run your pension could potentially benefit from higher returns"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 41,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:15:40.067Z",
+    "updated_time": "2021-05-06T20:38:13.555Z",
+    "product_type": 5,
+    "function": 1,
+    "reason": "Fidelity/Redington access",
+    "description": "The Fidelity platform enables you access to institutional funds and rebates on Redington portfolios"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 42,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:16:15.912Z",
+    "updated_time": "2021-05-06T20:38:35.469Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for retirement in the most tax efficient way available"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 43,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:16:27.033Z",
+    "updated_time": "2021-05-06T20:38:41.229Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Bridge shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 44,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:16:41.247Z",
+    "updated_time": "2021-05-06T20:38:48.810Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the long term"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 45,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:16:58.439Z",
+    "updated_time": "2021-05-06T20:38:55.201Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your retirement planning"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 46,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:17:17.890Z",
+    "updated_time": "2021-05-06T20:39:03.184Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your pension allowance for this tax year"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 47,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:17:34.450Z",
+    "updated_time": "2021-05-06T20:39:11.176Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Use current and previous allowance",
+    "description": "You would like to utilise your pension allowance for this tax year and some of your previous years allowance, in order to boost your retirement fund"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 48,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:17:48.684Z",
+    "updated_time": "2021-05-06T20:39:17.991Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Income tax relief",
+    "description": "You would like to contribute to your pension in order to reduce your income for this tax year and receive tax relief at your highest marginal rate"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 49,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:18:05.503Z",
+    "updated_time": "2021-05-06T20:39:25.694Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and pension income in retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 50,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:18:17.585Z",
+    "updated_time": "2021-05-06T20:39:32.220Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Outside estate",
+    "description": "You would like to invest asset which will accumulate outside of your estate"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 51,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:18:30.581Z",
+    "updated_time": "2021-05-06T20:39:40.674Z",
+    "product_type": 1,
+    "function": 2,
+    "reason": "Ltd company saving",
+    "description": "By investing in a pension you are building asset for retirement whilst reducing your corporation tax and company profit efficiently"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 52,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:18:45.583Z",
+    "updated_time": "2021-05-06T20:40:10.384Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for retirement in the most tax efficient way available"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 53,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:19:00.331Z",
+    "updated_time": "2021-05-06T20:40:17.551Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Bridge shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 54,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:19:12.708Z",
+    "updated_time": "2021-05-06T20:40:23.829Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the long term"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 55,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:19:26.526Z",
+    "updated_time": "2021-05-06T20:40:30.637Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your retirement planning"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 56,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:19:42.553Z",
+    "updated_time": "2021-05-06T20:40:39.600Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your pension allowance for this tax year"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 57,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:20:31.422Z",
+    "updated_time": "2021-05-06T20:40:46.776Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Use current and previous allowance",
+    "description": "You would like to utilise your pension allowance for this tax year and some of your previous years allowance, in order to boost your retirement fund"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 58,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:20:57.476Z",
+    "updated_time": "2021-05-06T20:40:53.196Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Income tax relief",
+    "description": "You would like to contribute to your pension in order to reduce your income for this tax year and receive tax relief at your highest marginal rate"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 59,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:21:15.704Z",
+    "updated_time": "2021-05-06T20:40:59.698Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and pension income in retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 60,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:21:29.973Z",
+    "updated_time": "2021-05-06T20:41:05.713Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Outside estate",
+    "description": "You would like to invest asset which will accumulate outside of your estate"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 61,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-29T15:21:42.986Z",
+    "updated_time": "2021-05-06T20:41:12.508Z",
+    "product_type": 1,
+    "function": 3,
+    "reason": "Ltd company saving",
+    "description": "By investing in a pension you are building asset for retirement whilst reducing your corporation tax and company profit efficiently"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 62,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:02:49.284Z",
+    "updated_time": "2021-05-27T05:02:49.284Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for the future in the most tax efficient way available."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 63,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:03:07.838Z",
+    "updated_time": "2021-05-27T05:03:07.838Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Bridge retirement shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 64,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:03:26.010Z",
+    "updated_time": "2021-05-27T05:03:26.010Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the medium term."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 65,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:03:48.172Z",
+    "updated_time": "2021-05-27T05:03:50.291Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your future."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 66,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:04:11.179Z",
+    "updated_time": "2021-05-27T05:04:11.180Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your ISA allowance for this tax year."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 67,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:04:27.264Z",
+    "updated_time": "2021-05-27T05:04:27.264Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and overall income in retirement"
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 68,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:04:44.551Z",
+    "updated_time": "2021-05-27T05:04:44.551Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Compound growth",
+    "description": "You would like to invest in an asset over time to benefit from some compound growth."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 69,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:05:07.095Z",
+    "updated_time": "2021-05-27T05:05:07.095Z",
+    "product_type": 3,
+    "function": 2,
+    "reason": "Liquidity",
+    "description": "You like the idea of having an investment that is liquid and accessible should you need it."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 70,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:05:23.494Z",
+    "updated_time": "2021-05-27T05:05:23.494Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for the future in the most tax efficient way available."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 71,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:05:39.330Z",
+    "updated_time": "2021-05-27T05:05:39.330Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Bridge retirement shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 72,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:05:53.675Z",
+    "updated_time": "2021-05-27T05:05:53.675Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the medium term."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 73,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:06:17.892Z",
+    "updated_time": "2021-05-27T05:06:17.892Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your future."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 74,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:06:34.128Z",
+    "updated_time": "2021-05-27T05:06:34.128Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your ISA allowance for this tax year."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 75,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:06:57.010Z",
+    "updated_time": "2021-05-27T05:06:57.010Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and overall income in retirement."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 76,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:07:15.534Z",
+    "updated_time": "2021-05-27T05:07:15.534Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Compound growth",
+    "description": "You would like to invest in an asset over time to benefit from some compound growth."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 77,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:07:28.189Z",
+    "updated_time": "2021-05-27T05:07:28.189Z",
+    "product_type": 3,
+    "function": 3,
+    "reason": "Liquidity",
+    "description": "You like the idea of having an investment that is liquid and accessible should you need it."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 78,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:07:42.888Z",
+    "updated_time": "2021-05-27T05:07:42.889Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for the future in the most tax efficient way available."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 79,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:08:03.909Z",
+    "updated_time": "2021-05-27T05:08:03.909Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Bridge retirement shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 80,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:08:19.368Z",
+    "updated_time": "2021-05-27T05:08:19.368Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the medium term."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 81,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:08:39.973Z",
+    "updated_time": "2021-05-27T05:08:39.973Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your future."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 82,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:08:57.636Z",
+    "updated_time": "2021-05-27T05:18:34.186Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your GIA allowance for this tax year."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 83,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:09:32.288Z",
+    "updated_time": "2021-05-27T05:09:32.288Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and overall income in retirement."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 84,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:09:59.616Z",
+    "updated_time": "2021-05-27T05:09:59.616Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Compound growth",
+    "description": "You would like to invest in an asset over time to benefit from some compound growth."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 85,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:10:39.817Z",
+    "updated_time": "2021-05-27T05:10:39.817Z",
+    "product_type": 5,
+    "function": 2,
+    "reason": "Liquidity",
+    "description": "You like the idea of having an investment that is liquid and accessible should you need it."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 86,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:11:10.314Z",
+    "updated_time": "2021-05-27T05:11:10.314Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Tax efficient saving",
+    "description": "You would like to save for the future in the most tax efficient way available."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 87,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:11:26.272Z",
+    "updated_time": "2021-05-27T05:11:26.272Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Bridge retirement shortfall",
+    "description": "You realise you have a shortfall in retirement and want to bridge this."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 88,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:11:42.496Z",
+    "updated_time": "2021-05-27T05:11:42.496Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Spare income to invest",
+    "description": "You have spare income which you would like to invest for the medium term."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 89,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:15:51.745Z",
+    "updated_time": "2021-05-27T05:15:51.745Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Lump sum to invest",
+    "description": "You have a lump sum of capital which you would like to invest towards your future."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 90,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:16:30.592Z",
+    "updated_time": "2021-05-27T05:16:30.592Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Use current allowance",
+    "description": "You would like to utilise a proportion for your GIA allowance for this tax year."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 91,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:16:45.351Z",
+    "updated_time": "2021-05-27T05:16:45.351Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Boost retirement income",
+    "description": "You would like to increase your retirement fund and overall income in retirement."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 92,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:17:01.000Z",
+    "updated_time": "2021-05-27T05:17:01.000Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Compound growth",
+    "description": "You would like to invest in an asset over time to benefit from some compound growth."
+  }
+},
+{
+  "model": "clients.reason",
+  "pk": 93,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-27T05:18:12.554Z",
+    "updated_time": "2021-05-27T05:18:12.554Z",
+    "product_type": 5,
+    "function": 3,
+    "reason": "Liquidity",
+    "description": "You like the idea of having an investment that is liquid and accessible should you need it."
+  }
+}
+]

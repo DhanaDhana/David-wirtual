@@ -1,0 +1,62 @@
+[
+{
+  "model": "clients.producttype",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:37:58.333Z",
+    "updated_time": "2021-02-12T04:37:58.333Z",
+    "fund_type": "Pension"
+  }
+},
+{
+  "model": "clients.producttype",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:38:06.935Z",
+    "updated_time": "2021-02-12T04:38:06.935Z",
+    "fund_type": "Insurance"
+  }
+},
+{
+  "model": "clients.producttype",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:38:14.553Z",
+    "updated_time": "2021-02-12T04:38:14.553Z",
+    "fund_type": "ISA"
+  }
+},
+{
+  "model": "clients.producttype",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:38:22.915Z",
+    "updated_time": "2021-02-12T04:38:22.915Z",
+    "fund_type": "Bond"
+  }
+},
+{
+  "model": "clients.producttype",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:38:32.123Z",
+    "updated_time": "2021-02-12T04:38:32.123Z",
+    "fund_type": "GIA"
+  }
+},
+{
+  "model": "clients.producttype",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-12T04:38:39.063Z",
+    "updated_time": "2021-02-12T04:38:39.063Z",
+    "fund_type": "Lifecover"
+  }
+}
+]

@@ -1,0 +1,50 @@
+[
+{
+  "model": "clients.feeruleconfig",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T08:59:15.647Z",
+    "updated_time": "2021-07-01T09:07:34.214Z",
+    "charge_name": "Initial fee",
+    "start": 0.0,
+    "end": 4.0,
+    "interval": 0.05,
+    "company": null,
+    "interval_type": "1",
+    "default_value": 3.0
+  }
+},
+{
+  "model": "clients.feeruleconfig",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T08:59:45.241Z",
+    "updated_time": "2021-07-01T09:07:23.660Z",
+    "charge_name": "Ongoing fee",
+    "start": 0.0,
+    "end": 1.0,
+    "interval": 0.01,
+    "company": null,
+    "interval_type": "1",
+    "default_value": 0.75
+  }
+},
+{
+  "model": "clients.feeruleconfig",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:00:06.948Z",
+    "updated_time": "2021-07-01T09:07:09.484Z",
+    "charge_name": "DFM fee",
+    "start": 0.0,
+    "end": 1.0,
+    "interval": 0.01,
+    "company": null,
+    "interval_type": "1",
+    "default_value": 0.12
+  }
+}
+]

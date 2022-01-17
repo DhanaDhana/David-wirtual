@@ -1,0 +1,38 @@
+Django==2.2
+psycopg2==2.8.5
+python-decouple==3.3
+djangorestframework==3.11.0
+django-cors-headers==3.4.0
+django-rest-swagger==2.2.0
+python-dateutil==2.8.1
+xhtml2pdf==0.2.4
+pdf2image==1.14.0     #apt-get install poppler-utils
+django-crontab==0.7.1
+djongo==1.3.3
+sqlparse==0.2.4
+SpeechRecognition==3.8.1
+webcolors==1.11.1
+#django-auditlog==0.4.7
+# drf-api-logger==1.0.4
+pydub==0.25.1
+unotools==0.3.3
+boto3==1.17.78
+django-storages==1.11.1
+docxcompose==1.3.2
+pikepdf==2.12.1
+django-tinymce==3.3.0
+
+#not to be uppgraded further. Else timezone dependency error will occur for o365 event fetch
+tzlocal==2.1
+
+cap_services/customize_apps/cap_outlook_service-dev_for_cap_service.zip
+cap_services/customize_apps/htmldocx-master.zip
+cap_services/customize_apps/python-o365-master.zip
+cap_services/customize_apps/drf-api-logger-master.zip
+
+
+#git+ssh://git@git.ndzhome.com/david/cap_outlook_service.git@dev_for_cap_service
+#git+ssh://git@git.ndzhome.com/ganesh/python-o365.git@master
+#git+ssh://git@git.ndzhome.com:/sidharth/htmldocx.git@master
+
+

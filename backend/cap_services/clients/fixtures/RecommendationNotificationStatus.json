@@ -1,0 +1,282 @@
+[
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T14:34:30.629Z",
+    "updated_time": "2021-02-22T12:26:07.060Z",
+    "status_name": "Make a plan for school fees and education",
+    "status_value": 1,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T15:24:55.247Z",
+    "updated_time": "2021-05-16T12:23:39.805Z",
+    "status_name": "Uni fund contribution",
+    "status_value": 2,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T15:28:09.444Z",
+    "updated_time": "2021-02-22T12:30:14.264Z",
+    "status_name": "Critical illness insurance is important to protect loss of income due to illness",
+    "status_value": 3,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T15:44:21.473Z",
+    "updated_time": "2021-02-22T12:32:52.545Z",
+    "status_name": "Over the annual allowance - send an email  to HR to find out what options for reducing contributions",
+    "status_value": 4,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T15:50:19.718Z",
+    "updated_time": "2021-02-22T12:34:10.241Z",
+    "status_name": "Focus on trust planning",
+    "status_value": 5,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T16:31:00.694Z",
+    "updated_time": "2021-02-23T08:40:36.946Z",
+    "status_name": "Have Smoking/Medical conditions",
+    "status_value": 6,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T17:04:15.372Z",
+    "updated_time": "2021-02-22T12:47:51.287Z",
+    "status_name": "Interested in investing some of spare income towards financial planning",
+    "status_value": 7,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T18:25:32.880Z",
+    "updated_time": "2020-12-17T18:25:32.880Z",
+    "status_name": "Caution due to amount of cash held",
+    "status_value": 8,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T18:34:35.078Z",
+    "updated_time": "2021-05-16T12:15:46.194Z",
+    "status_name": "Lots of stock, gradual disinvestment plan",
+    "status_value": 9,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T18:45:58.076Z",
+    "updated_time": "2021-02-22T13:00:40.060Z",
+    "status_name": "Investment property : Make a plan for paying and check insurance",
+    "status_value": 10,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T18:46:14.630Z",
+    "updated_time": "2021-05-16T12:09:21.446Z",
+    "status_name": "Consolidate old pensions",
+    "status_value": 11,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-17T18:52:22.117Z",
+    "updated_time": "2021-05-16T12:08:21.333Z",
+    "status_name": "Spouse has old pensions",
+    "status_value": 12,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-05T09:24:17.094Z",
+    "updated_time": "2021-05-16T11:46:13.524Z",
+    "status_name": "Not much cash, planning to move",
+    "status_value": 13,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-05T09:24:40.810Z",
+    "updated_time": "2021-05-16T12:28:21.016Z",
+    "status_name": "Client is planning renovations",
+    "status_value": 14,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 18,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-05T09:25:01.393Z",
+    "updated_time": "2021-01-05T09:25:01.393Z",
+    "status_name": "Overpay the mortgage",
+    "status_value": 15,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 20,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-13T09:04:31.570Z",
+    "updated_time": "2021-05-16T12:27:57.247Z",
+    "status_name": "Mortgage exceeds retirement age: Make a plan to pay off",
+    "status_value": 16,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-24T09:56:04.909Z",
+    "updated_time": "2021-02-24T09:56:04.909Z",
+    "status_name": "Plan for property payment",
+    "status_value": 17,
+    "comments": null,
+    "is_question": false,
+    "draft_checklist": null
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 22,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-18T12:18:39.593Z",
+    "updated_time": "2021-05-31T07:52:56.233Z",
+    "status_name": "Is the client being classified other than a retail client?",
+    "status_value": 18,
+    "comments": null,
+    "is_question": true,
+    "draft_checklist": 31
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-18T12:18:56.215Z",
+    "updated_time": "2021-05-31T07:53:12.690Z",
+    "status_name": "Is the client a vulnerable client?",
+    "status_value": 19,
+    "comments": null,
+    "is_question": true,
+    "draft_checklist": 32
+  }
+},
+{
+  "model": "clients.recommendationnotificationstatus",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-09T12:48:01.110Z",
+    "updated_time": "2021-06-09T12:48:01.110Z",
+    "status_name": "Does the report evidence that the client was given the opportunity to have a friend or relative accompany them at the meeting?",
+    "status_value": 20,
+    "comments": null,
+    "is_question": true,
+    "draft_checklist": 52
+  }
+}
+]

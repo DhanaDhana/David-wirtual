@@ -1,0 +1,436 @@
+[
+{
+  "model": "clients.taskcollection",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-22T07:10:15.577Z",
+    "updated_time": "2021-06-22T17:23:26.763Z",
+    "task_name": "Task verified by Ops Lead",
+    "task_group": "Ops Lead",
+    "task_slug": "task_verified",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-22T07:10:40.487Z",
+    "updated_time": "2021-05-03T09:56:57.033Z",
+    "task_name": "Meeting scheduled",
+    "task_group": "Ops Lead",
+    "task_slug": "meeting_scheduled",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-22T07:10:59.643Z",
+    "updated_time": "2021-06-22T17:23:17.220Z",
+    "task_name": "Task assigned to Administrator",
+    "task_group": "Ops Lead",
+    "task_slug": "task_assigned",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-22T07:11:09.030Z",
+    "updated_time": "2021-05-03T09:57:30.472Z",
+    "task_name": "Task Reassigned",
+    "task_group": "Ops Lead",
+    "task_slug": "task_reassigned",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:30:13.246Z",
+    "updated_time": "2021-06-04T09:57:16.327Z",
+    "task_name": "Updated Client File",
+    "task_group": "Ops Lead",
+    "task_slug": "ops_updated_client_file",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:30:37.407Z",
+    "updated_time": "2021-05-03T09:58:00.316Z",
+    "task_name": "Generate FFR",
+    "task_group": "Administrator",
+    "task_slug": "generate_ffr",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:31:02.217Z",
+    "updated_time": "2021-05-03T09:58:10.430Z",
+    "task_name": "Trigger KYC",
+    "task_group": "Administrator",
+    "task_slug": "trigger_kyc",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:31:22.316Z",
+    "updated_time": "2021-06-22T17:23:04.556Z",
+    "task_name": "KYC confirmed",
+    "task_group": "Administrator",
+    "task_slug": "confirm_kyc",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:31:42.991Z",
+    "updated_time": "2021-05-03T09:58:34.638Z",
+    "task_name": "Admin & Pre-compliance Checklist",
+    "task_group": "Administrator",
+    "task_slug": "admin_pre_compliance_checklist",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-29T10:32:31.245Z",
+    "updated_time": "2021-06-22T17:22:54.121Z",
+    "task_name": "Task assigned to Compliance Team",
+    "task_group": "Administrator",
+    "task_slug": "assign_to_compliance",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-30T11:21:27.468Z",
+    "updated_time": "2021-06-22T17:23:56.837Z",
+    "task_name": "Meeting cancelled",
+    "task_group": "Ops Lead",
+    "task_slug": "meeting_cancelled",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-30T18:20:44.175Z",
+    "updated_time": "2021-06-22T17:24:05.314Z",
+    "task_name": "Meeting re-scheduled",
+    "task_group": "Ops Lead",
+    "task_slug": "meeting_rescheduled",
+    "task_description": "",
+    "group_order": 0
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 26,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T09:59:42.514Z",
+    "updated_time": "2021-05-03T09:59:42.514Z",
+    "task_name": "Case File Review",
+    "task_group": "Compliance",
+    "task_slug": "case_file_review",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T10:00:06.666Z",
+    "updated_time": "2021-06-22T17:24:36.712Z",
+    "task_name": "Compliance checklist review",
+    "task_group": "Compliance",
+    "task_slug": "compliance_checklist_review",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T10:00:28.377Z",
+    "updated_time": "2021-05-03T10:00:28.377Z",
+    "task_name": "Advisor & Admin Checklist Summary",
+    "task_group": "Compliance",
+    "task_slug": "advisor_admin_checklist_summary",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 29,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T10:00:50.490Z",
+    "updated_time": "2021-05-03T10:00:50.491Z",
+    "task_name": "Suitability Report Comparison",
+    "task_group": "Compliance",
+    "task_slug": "suitability_report_comparison",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 30,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T10:01:19.475Z",
+    "updated_time": "2021-06-22T17:24:55.079Z",
+    "task_name": "Approved Client File & Report",
+    "task_group": "Compliance",
+    "task_slug": "approve_client_file_report",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 33,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-03T10:02:30.631Z",
+    "updated_time": "2021-05-29T14:03:40.173Z",
+    "task_name": "Advisor approved Case file",
+    "task_group": "Final",
+    "task_slug": "advisor_approval",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 34,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-29T11:08:45.502Z",
+    "updated_time": "2021-06-22T17:21:24.199Z",
+    "task_name": "Administrator checklist verified",
+    "task_group": "Administrator",
+    "task_slug": "administrator_checklist_verified",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 35,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-29T11:09:18.445Z",
+    "updated_time": "2021-06-22T17:21:14.449Z",
+    "task_name": "Compliance checklist verified",
+    "task_group": "Compliance",
+    "task_slug": "compliance_checklist_verified",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 36,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-29T11:10:15.240Z",
+    "updated_time": "2021-06-22T17:21:02.342Z",
+    "task_name": "Advisor checklist verified",
+    "task_group": "Final",
+    "task_slug": "advisor_checklist_verified",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 38,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-29T14:04:07.610Z",
+    "updated_time": "2021-06-22T17:20:41.029Z",
+    "task_name": "Suitability Report mailed",
+    "task_group": "Final",
+    "task_slug": "final_draft_mail_send",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 39,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-29T14:04:44.134Z",
+    "updated_time": "2021-06-22T17:20:15.686Z",
+    "task_name": "Client case file closed",
+    "task_group": "Final",
+    "task_slug": "task_file_closed",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 40,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-03T19:31:44.634Z",
+    "updated_time": "2021-06-04T09:56:34.361Z",
+    "task_name": "Updated Client File",
+    "task_group": "Administrator",
+    "task_slug": "admin_updated_client_file",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 41,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-03T19:32:34.173Z",
+    "updated_time": "2021-06-04T09:56:29.735Z",
+    "task_name": "Updated Client File",
+    "task_group": "Compliance",
+    "task_slug": "compliance_updated_client_file",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 42,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-04T07:56:16.990Z",
+    "updated_time": "2021-06-22T17:20:00.711Z",
+    "task_name": "Task assigned to Advisor",
+    "task_group": "Compliance",
+    "task_slug": "final_assign_to_advisor",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 43,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T16:02:25.427Z",
+    "updated_time": "2021-06-22T17:17:55.004Z",
+    "task_name": "Updated Client File",
+    "task_group": "Final",
+    "task_slug": "advisor_updated_client_file",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 44,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-11-02T07:03:50.670Z",
+    "updated_time": "2021-11-02T07:04:23.534Z",
+    "task_name": "Task Assigned to Administrator",
+    "task_group": "Compliance",
+    "task_slug": "final_assign_to_administrator",
+    "task_description": "",
+    "group_order": 2
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 45,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-11-03T12:44:57.583Z",
+    "updated_time": "2021-11-03T12:44:57.583Z",
+    "task_name": "Administrator approved Case file",
+    "task_group": "Final",
+    "task_slug": "administrator_approval",
+    "task_description": "",
+    "group_order": 3
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 46,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-11-11T12:05:15.703Z",
+    "updated_time": "2021-11-16T04:37:57.857Z",
+    "task_name": "KYC reconfirm pending",
+    "task_group": "Administrator",
+    "task_slug": "kyc_reconfirm_pending",
+    "task_description": "",
+    "group_order": 1
+  }
+},
+{
+  "model": "clients.taskcollection",
+  "pk": 47,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-11-11T12:06:49.807Z",
+    "updated_time": "2021-11-16T04:37:44.264Z",
+    "task_name": "KYC reconfirmed",
+    "task_group": "Administrator",
+    "task_slug": "kyc_reconfirmed",
+    "task_description": "",
+    "group_order": 1
+  }
+}
+]

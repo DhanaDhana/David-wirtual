@@ -1,0 +1,182 @@
+[
+{
+  "model": "clients.documentsetting",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-06T13:41:50.046Z",
+    "updated_time": "2021-02-25T20:24:47.286Z",
+    "type": "3",
+    "max_size_limit": "5242880",
+    "allowed_format": "[\"pdf\",\"jpeg\",\"jpg\",\"png\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-08T13:07:44.140Z",
+    "updated_time": "2021-02-25T20:24:47.234Z",
+    "type": "1",
+    "max_size_limit": "5242880",
+    "allowed_format": "[\"pdf\",\"jpeg\",\"jpg\",\"png\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-08T13:07:44.146Z",
+    "updated_time": "2021-02-25T20:24:47.271Z",
+    "type": "2",
+    "max_size_limit": "5242880",
+    "allowed_format": "[\"csv\",]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-08T13:07:44.155Z",
+    "updated_time": "2021-06-18T16:02:10.682Z",
+    "type": "4",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"pdf\",]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-08T13:07:44.161Z",
+    "updated_time": "2021-06-18T16:02:04.682Z",
+    "type": "5",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"pdf\",]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:53:10.336Z",
+    "updated_time": "2021-06-18T16:01:37.091Z",
+    "type": "8",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:51:05.639Z",
+    "updated_time": "2021-06-18T16:01:29.912Z",
+    "type": "9",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:55:16.283Z",
+    "updated_time": "2021-06-18T16:01:18.407Z",
+    "type": "10",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:55:31.457Z",
+    "updated_time": "2021-06-18T16:01:14.790Z",
+    "type": "11",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:55:41.076Z",
+    "updated_time": "2021-06-18T16:01:10.724Z",
+    "type": "12",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:55:51.951Z",
+    "updated_time": "2021-06-18T16:01:03.882Z",
+    "type": "13",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:56:04.249Z",
+    "updated_time": "2021-06-18T16:00:58.134Z",
+    "type": "14",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:56:15.132Z",
+    "updated_time": "2021-06-18T16:00:52.779Z",
+    "type": "15",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:56:25.259Z",
+    "updated_time": "2021-06-18T16:00:46.835Z",
+    "type": "16",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+},
+{
+  "model": "clients.documentsetting",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-01T13:56:37.194Z",
+    "updated_time": "2021-06-18T16:00:39.902Z",
+    "type": "17",
+    "max_size_limit": "15728640",
+    "allowed_format": "[\"docx\", \"doc\",\"pdf\"]"
+  }
+}
+]

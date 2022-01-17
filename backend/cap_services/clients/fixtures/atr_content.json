@@ -1,0 +1,77 @@
+[
+{
+  "model": "clients.atr",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T06:23:49.058Z",
+    "updated_time": "2021-07-09T06:55:14.213Z",
+    "risk_type": "Conservative",
+    "content": "In general, Conservative investors prefer knowing that their capital is safe rather than seeking higher returns. They are not particularly comfortable with the thought of investing in the stockmarket and would rather keep most of their money in lower risk assets.  However, Conservative investors do not believe that all of their money should be invested in lower risk assets such as Cash or Fixed Income.\r\nConservative investors typically have fairly limited knowledge of financial matters and they are unlikely to have much experience of investment.\r\nConservative investors can take a relatively long time to make up their mind on financial matters and will usually suffer from regret if their decisions turn out badly.\r\nRisk attitude is only one factor in determining a suitable investment strategy. You must also consider your ability to withstand short term losses, and your need to take risk to achieve your financial goals.",
+    "extra_content": "There will inevitably be times when the value of your investments could drop quite sharply. You need to be aware and be comfortable that you have the necessary capacity for loss to accept this. For example, in a single bad year (i.e. in the bottom 5% of outcomes) your loss could be expected to be 5% or worse. You are prepared to take this level of risk as your retirement objectives are your highest priority.",
+    "risk_graph": "master/sr_images/conservative_graph.png",
+    "risk_portfolio": "master/sr_images/Conservative.png",
+    "loss_percentage": "5"
+  }
+},
+{
+  "model": "clients.atr",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T06:24:16.463Z",
+    "updated_time": "2021-07-13T05:01:50.306Z",
+    "risk_type": "Balanced",
+    "content": "In general, Balanced investors prefer not to take too much risk with their investments, but will do so to an extent. They tend to prefer lower risk assets, but realise riskier investments are likely to give better longer-term returns.  As a result, they realise that by taking a balanced level of risk the opportunity for increased returns is higher. \r\nBalanced investors typically have moderate levels of knowledge about financial matters and they may have some experience of investment in riskier assets.\r\nBalanced investors can take some time to make up their mind on financial matters and can suffer from regret when decisions turn out badly.\r\nRisk attitude is only one factor in determining a suitable investment strategy. You must also consider your ability to withstand short term losses, and your need to take risk to achieve your financial goals.",
+    "extra_content": "There will inevitably be times when the value of your investments could drop quite sharply. You need to be aware and be comfortable that you have the necessary capacity for loss to accept this. For example, in a single bad year (i.e. in the bottom 5% of outcomes) your loss could be expected to be 10% or worse. You are prepared to take this level of risk as your retirement objectives are your highest priority.",
+    "risk_graph": "master/sr_images/balanced_graph.png",
+    "risk_portfolio": "master/sr_images/Balanced.png",
+    "loss_percentage": "10"
+  }
+},
+{
+  "model": "clients.atr",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T06:24:40.724Z",
+    "updated_time": "2021-07-09T06:55:52.542Z",
+    "risk_type": "Moderate",
+    "content": "In general, Moderate investors understand that they have to take investment risk in order to be able to meet their long-term goals. They are likely to be willing to take risk with a high proportion of their available assets.\r\nModerate investors typically have a good level of knowledge about financial matters and they usually have some experience of investment, including investing in products containing higher risk assets such as equities.\r\nModerate investors will usually be able to make up their minds on financial matters relatively quickly, but still suffer from some feelings of regret when their decisions turn out badly.\r\nRisk attitude is only one factor in determining a suitable investment strategy. You must also consider your ability to withstand short term losses, and your need to take risk to achieve your financial goals.",
+    "extra_content": "There will inevitably be times when the value of your investments could drop quite sharply. You need to be aware and be comfortable that you have the necessary capacity for loss to accept this. For example, in a single bad year (i.e. in the bottom 5% of outcomes) your loss could be expected to be 15% or worse. You are prepared to take this level of risk as your retirement objectives are your highest priority.",
+    "risk_graph": "master/sr_images/moderate_graph.png",
+    "risk_portfolio": "master/sr_images/Moderate.png",
+    "loss_percentage": "15"
+  }
+},
+{
+  "model": "clients.atr",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T06:25:03.183Z",
+    "updated_time": "2021-07-13T05:03:41.303Z",
+    "risk_type": "Dynamic",
+    "content": "In general, Dynamic investors are happy to take investment risk and understand this is crucial in terms of generating long-term return. They are willing to take risk with most of their available assets.\r\nDynamic investors typically have significant levels of financial knowledge and they will usually be experienced investors, who have used a range of investment products in the past that have contained high levels of Equity.\r\nDynamic investors will usually be able to make up their minds on financial matters quite quickly. While they can suffer from regret when their decisions turn out badly, they are able to accept that occasional poor returns are a necessary part of long-term investment.\r\nRisk attitude is only one factor in determining a suitable investment strategy. You must also consider your ability to withstand short term losses, and your need to take risk to achieve your financial goals.",
+    "extra_content": "There will inevitably be times when the value of your investments could drop quite sharply. You need to be aware and be comfortable that you have the necessary capacity for loss to accept this. For example, in a single bad year (i.e. in the bottom 5% of outcomes) your loss could be expected to be 20% or worse. You are prepared to take this level of risk as your retirement objectives are your highest priority.",
+    "risk_graph": "master/sr_images/dynamic_graph.png",
+    "risk_portfolio": "master/sr_images/Dynamic.png",
+    "loss_percentage": "20"
+  }
+},
+{
+  "model": "clients.atr",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T06:25:26.995Z",
+    "updated_time": "2021-07-13T05:03:30.891Z",
+    "risk_type": "Adventurous",
+    "content": "In general, Adventurous investors are looking for a high return on their capital and are willing to take considerable amounts of risk to achieve this. They are usually willing to take risk with all of their available assets.\r\nAdventurous investors typically have high levels of financial knowledge and they often have substantial amounts of investment experience and may have been active in managing their investment arrangements.\r\nAdventurous investors typically will make up their minds on financial matters quickly. They do not suffer from regret to any great extent and can accept occasional poor returns without much difficulty.\r\nRisk attitude is only one factor in determining a suitable investment strategy. You must also consider your ability to withstand short term losses, and your need to take risk to achieve your financial goals.",
+    "extra_content": "There will inevitably be times when the value of your investments could drop quite sharply. You need to be aware and be comfortable that you have the necessary capacity for loss to accept this. For example, in a single bad year (i.e. in the bottom 5% of outcomes) your loss could be expected to be 25% or worse. You are prepared to take this level of risk as your retirement objectives are your highest priority.",
+    "risk_graph": "master/sr_images/adventurous_graph.png",
+    "risk_portfolio": "master/sr_images/Adventurous.png",
+    "loss_percentage": "25"
+  }
+}
+]

@@ -1,0 +1,123 @@
+[
+{
+  "model": "clients.fundrisk",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:01:50.656Z",
+    "updated_time": "2021-07-09T08:13:40.630Z",
+    "fund_name": "1",
+    "fund_percentage": "0.60"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:02:08.819Z",
+    "updated_time": "2021-01-28T09:02:08.819Z",
+    "fund_name": "2",
+    "fund_percentage": "0.65"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:02:25.250Z",
+    "updated_time": "2021-07-09T08:57:06.162Z",
+    "fund_name": "3",
+    "fund_percentage": "0.72"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:02:41.704Z",
+    "updated_time": "2021-07-09T08:06:44.874Z",
+    "fund_name": "4",
+    "fund_percentage": "0.79"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:02:58.073Z",
+    "updated_time": "2021-07-09T08:12:46.137Z",
+    "fund_name": "5",
+    "fund_percentage": "0.83"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:03:16.588Z",
+    "updated_time": "2021-01-28T09:03:16.588Z",
+    "fund_name": "6",
+    "fund_percentage": "0.62"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:03:34.947Z",
+    "updated_time": "2021-01-28T09:03:34.947Z",
+    "fund_name": "7",
+    "fund_percentage": "0.64"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:03:58.579Z",
+    "updated_time": "2021-07-09T08:13:13.547Z",
+    "fund_name": "8",
+    "fund_percentage": "0.72"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:04:15.812Z",
+    "updated_time": "2021-01-28T09:04:15.812Z",
+    "fund_name": "9",
+    "fund_percentage": "0.73"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-01-28T09:04:33.331Z",
+    "updated_time": "2021-01-28T09:04:33.331Z",
+    "fund_name": "10",
+    "fund_percentage": "0.74"
+  }
+},
+{
+  "model": "clients.fundrisk",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-05T08:29:53.874Z",
+    "updated_time": "2021-05-05T08:29:53.874Z",
+    "fund_name": "11",
+    "fund_percentage": null
+  }
+}
+]

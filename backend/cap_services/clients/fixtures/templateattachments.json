@@ -1,0 +1,67 @@
+[
+{
+  "model": "clients.templateattachments",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-02-11T11:06:51.535Z",
+    "updated_time": "2021-02-17T07:11:43.602Z",
+    "template_name": "TOB",
+    "category": 6,
+    "attachment_url": "templates/Terms_of_Business.pdf",
+    "watchable_attachment": true
+  }
+},
+{
+  "model": "clients.templateattachments",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-11T10:38:21.961Z",
+    "updated_time": "2021-05-11T10:38:21.961Z",
+    "template_name": "Welcome Letter",
+    "category": 9,
+    "attachment_url": "templates/Lathe&Co Welcome Letter.pdf",
+    "watchable_attachment": true
+  }
+},
+{
+  "model": "clients.templateattachments",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-11T10:38:58.803Z",
+    "updated_time": "2021-05-11T10:38:58.803Z",
+    "template_name": "BR19",
+    "category": 7,
+    "attachment_url": "templates/BR19.pdf",
+    "watchable_attachment": true
+  }
+},
+{
+  "model": "clients.templateattachments",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-11T10:39:26.106Z",
+    "updated_time": "2021-05-11T10:39:26.106Z",
+    "template_name": "Expression of wishes",
+    "category": 7,
+    "attachment_url": "templates/Expression_of_Wish.pdf",
+    "watchable_attachment": true
+  }
+},
+{
+  "model": "clients.templateattachments",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-11T10:39:49.113Z",
+    "updated_time": "2021-05-11T10:39:49.113Z",
+    "template_name": "Online access",
+    "category": 6,
+    "attachment_url": "templates/Online_access.pdf",
+    "watchable_attachment": true
+  }
+}
+]

@@ -1,0 +1,296 @@
+[
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T10:02:59.395Z",
+    "updated_time": "2021-07-05T11:15:52.593Z",
+    "category_name": "Personal Information",
+    "parent": null,
+    "allowed_days": "0",
+    "category_slug_name": "personal_information_7",
+    "category_order": 0
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T10:07:13.722Z",
+    "updated_time": "2021-07-06T13:16:10.860Z",
+    "category_name": "Basic Information",
+    "parent": 7,
+    "allowed_days": "20",
+    "category_slug_name": "basic_info_8",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T10:09:12.047Z",
+    "updated_time": "2021-07-06T13:15:59.545Z",
+    "category_name": "Relationship & Dependencies",
+    "parent": 7,
+    "allowed_days": "20",
+    "category_slug_name": "relationship___dependencies_9",
+    "category_order": 2
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T10:09:27.348Z",
+    "updated_time": "2021-07-06T13:15:51.455Z",
+    "category_name": "Contact Details",
+    "parent": 7,
+    "allowed_days": "20",
+    "category_slug_name": "contact_details_10",
+    "category_order": 3
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T11:00:45.816Z",
+    "updated_time": "2021-07-06T13:15:40.183Z",
+    "category_name": "Occupation Information",
+    "parent": null,
+    "allowed_days": "0",
+    "category_slug_name": "occupation_info_11",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T11:01:14.355Z",
+    "updated_time": "2021-02-25T07:53:21.022Z",
+    "category_name": "Employment",
+    "parent": 11,
+    "allowed_days": "20",
+    "category_slug_name": "employment_12",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T11:01:49.160Z",
+    "updated_time": "2021-02-25T07:53:40.540Z",
+    "category_name": "Previous Employment",
+    "parent": 11,
+    "allowed_days": "20",
+    "category_slug_name": "previous_employment_13",
+    "category_order": 3
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:02:17.432Z",
+    "updated_time": "2021-07-06T13:15:19.169Z",
+    "category_name": "Income & Expenditure Summary",
+    "parent": null,
+    "allowed_days": "0",
+    "category_slug_name": "income___expenditure_summary_14",
+    "category_order": 2
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:03:01.773Z",
+    "updated_time": "2021-02-25T07:54:18.917Z",
+    "category_name": "Income & Expenditure",
+    "parent": 14,
+    "allowed_days": "20",
+    "category_slug_name": "income___expenditure_15",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:03:21.767Z",
+    "updated_time": "2021-02-25T07:54:35.919Z",
+    "category_name": "Employer Benefits",
+    "parent": 11,
+    "allowed_days": "20",
+    "category_slug_name": "employer_benefits_16",
+    "category_order": 2
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:03:45.916Z",
+    "updated_time": "2021-07-06T13:15:03.521Z",
+    "category_name": "Private Pensions",
+    "parent": 14,
+    "allowed_days": "20",
+    "category_slug_name": "private_pensions_17",
+    "category_order": 2
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 19,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:19:02.874Z",
+    "updated_time": "2021-02-25T07:55:11.366Z",
+    "category_name": "Debts",
+    "parent": 14,
+    "allowed_days": "20",
+    "category_slug_name": "debts_19",
+    "category_order": 4
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 20,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:19:17.259Z",
+    "updated_time": "2021-02-25T07:55:31.653Z",
+    "category_name": "Private Insurance",
+    "parent": 14,
+    "allowed_days": "20",
+    "category_slug_name": "private_insurance_20",
+    "category_order": 3
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:19:53.733Z",
+    "updated_time": "2021-02-25T07:55:52.160Z",
+    "category_name": "Net Worth Summary",
+    "parent": null,
+    "allowed_days": "0",
+    "category_slug_name": "net_worth_summary_21",
+    "category_order": 3
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 22,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:20:09.402Z",
+    "updated_time": "2021-02-25T07:56:10.576Z",
+    "category_name": "Property Details",
+    "parent": 7,
+    "allowed_days": "20",
+    "category_slug_name": "property_details_22",
+    "category_order": 4
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:20:17.553Z",
+    "updated_time": "2021-02-25T07:56:32.585Z",
+    "category_name": "Will",
+    "parent": 7,
+    "allowed_days": "20",
+    "category_slug_name": "will_23",
+    "category_order": 5
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-03T12:20:25.322Z",
+    "updated_time": "2021-02-25T07:56:48.431Z",
+    "category_name": "Assets",
+    "parent": 21,
+    "allowed_days": "20",
+    "category_slug_name": "assets_24",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-04T09:11:10.678Z",
+    "updated_time": "2021-02-25T07:57:11.233Z",
+    "category_name": "Plans & ATR",
+    "parent": null,
+    "allowed_days": "0",
+    "category_slug_name": "plans___atr_27",
+    "category_order": 4
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-04T09:11:29.585Z",
+    "updated_time": "2021-02-25T07:57:29.222Z",
+    "category_name": "Financial Plans",
+    "parent": 27,
+    "allowed_days": "20",
+    "category_slug_name": "financial_plans_28",
+    "category_order": 2
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 29,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-04T09:11:51.378Z",
+    "updated_time": "2021-07-06T13:14:47.850Z",
+    "category_name": "Attitude to Risk",
+    "parent": 27,
+    "allowed_days": "20",
+    "category_slug_name": "attitude_to_risk_29",
+    "category_order": 1
+  }
+},
+{
+  "model": "clients.categoryandsubcategory",
+  "pk": 31,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-23T09:30:38.103Z",
+    "updated_time": "2021-02-25T07:58:00.344Z",
+    "category_name": "About",
+    "parent": 27,
+    "allowed_days": "20",
+    "category_slug_name": "about_31",
+    "category_order": 3
+  }
+}
+]

@@ -1,0 +1,171 @@
+[
+{
+  "model": "clients.cap_settings",
+  "pk": 1,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:48:23.686Z",
+    "updated_time": "2020-11-23T11:58:38.212Z",
+    "label_name": "Instrument_loa download",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:48:50.164Z",
+    "updated_time": "2020-11-23T11:58:47.965Z",
+    "label_name": "Instrument_signed loa upload",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:49:16.240Z",
+    "updated_time": "2020-11-23T12:19:58.958Z",
+    "label_name": "Instrument_loa mail sent",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:49:57.051Z",
+    "updated_time": "2020-11-30T07:03:36.174Z",
+    "label_name": "Instrument_loa response upload",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 5,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:50:23.445Z",
+    "updated_time": "2020-11-30T07:03:47.706Z",
+    "label_name": "Instrument_third party doc",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-10-27T14:50:46.081Z",
+    "updated_time": "2020-11-30T07:03:57.985Z",
+    "label_name": "Instrument_loa mail response",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "days"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:05:54.935Z",
+    "updated_time": "2020-11-30T07:05:54.935Z",
+    "label_name": "surveyform_Personal information",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:06:59.272Z",
+    "updated_time": "2020-11-30T07:06:59.272Z",
+    "label_name": "surveyform_Occupation Info",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:07:16.679Z",
+    "updated_time": "2020-12-22T15:46:08.907Z",
+    "label_name": "surveyform_Income & Expenditure Summary",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:07:34.660Z",
+    "updated_time": "2020-11-30T07:07:34.660Z",
+    "label_name": "surveyform_Expenditure Data",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:07:54.199Z",
+    "updated_time": "2020-11-30T07:07:54.199Z",
+    "label_name": "surveyform_Networth Summary",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-11-30T07:08:14.767Z",
+    "updated_time": "2020-11-30T07:08:14.767Z",
+    "label_name": "surveyform_Plans&ATR",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+},
+{
+  "model": "clients.cap_settings",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-12-01T07:44:01.782Z",
+    "updated_time": "2020-12-01T07:44:01.782Z",
+    "label_name": "Instrument_data extraction",
+    "due_date_duration": "0",
+    "reminder_date_duration": "0",
+    "unit": "day"
+  }
+}
+]

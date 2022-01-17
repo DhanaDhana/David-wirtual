@@ -1,0 +1,705 @@
+[
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 2,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-19T11:21:09.891Z",
+    "updated_time": "2021-06-16T06:22:16.801Z",
+    "master_keywords": 14,
+    "mapped_keywords": "[\"Ongoing Adviser Charge\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[\"%\"]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 3,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-21T05:01:43.163Z",
+    "updated_time": "2021-05-27T12:15:02.564Z",
+    "master_keywords": 15,
+    "mapped_keywords": "[\"Adviser Initial Fee (\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[\"%\"]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 4,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-21T05:02:38.652Z",
+    "updated_time": "2021-05-27T11:39:25.210Z",
+    "master_keywords": 14,
+    "mapped_keywords": "[\"Your adviser's charges\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[\"%\"]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 6,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-24T07:05:03.082Z",
+    "updated_time": "2021-06-16T06:22:01.195Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Initial Adviser Charge (Singles)\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[\"%\"]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 7,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-15T05:11:17.934Z",
+    "updated_time": "2021-06-16T05:47:22.192Z",
+    "master_keywords": 16,
+    "mapped_keywords": "[]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your contributions",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 8,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-15T05:12:59.924Z",
+    "updated_time": "2021-06-16T05:47:17.211Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your payment",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-15T05:13:38.490Z",
+    "updated_time": "2021-06-16T05:47:12.224Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Employee (net)\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your contributions",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-15T07:36:02.515Z",
+    "updated_time": "2021-06-16T05:47:07.438Z",
+    "master_keywords": 16,
+    "mapped_keywords": "[\"Transfer\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your contributions",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 11,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T06:56:35.414Z",
+    "updated_time": "2021-06-23T05:10:23.449Z",
+    "master_keywords": 15,
+    "mapped_keywords": "[\"Initial Adviser Charge (Transfers)\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T07:18:41.062Z",
+    "updated_time": "2021-06-16T07:18:41.063Z",
+    "master_keywords": 21,
+    "mapped_keywords": "[]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your contributions",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T07:19:31.270Z",
+    "updated_time": "2021-06-16T07:19:31.270Z",
+    "master_keywords": 21,
+    "mapped_keywords": "[]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": "Your payment",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 15,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T10:57:15.061Z",
+    "updated_time": "2021-06-17T08:04:00.084Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Total\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Personallump sum paymentinto your account",
+    "is_multi": 1,
+    "amount_type": "HIGH"
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 16,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T10:58:35.450Z",
+    "updated_time": "2021-06-17T08:03:52.616Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[\"Total\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Monthly savings into your InvestmentISA",
+    "is_multi": 0,
+    "amount_type": "HIGH"
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-16T13:12:10.875Z",
+    "updated_time": "2021-06-17T08:03:43.873Z",
+    "master_keywords": 16,
+    "mapped_keywords": "[\"Total\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Transferring investments into your account",
+    "is_multi": 1,
+    "amount_type": "HIGH"
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 18,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-17T10:30:50.453Z",
+    "updated_time": "2021-06-17T10:31:34.178Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Adviser Initial Fee (\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Personallump sum paymentinto your account",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 19,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-17T10:31:27.250Z",
+    "updated_time": "2021-06-17T10:31:27.250Z",
+    "master_keywords": 20,
+    "mapped_keywords": "[\"Adviser Initial Fee (\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Monthly savings into your InvestmentISA",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 20,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-17T11:26:57.928Z",
+    "updated_time": "2021-06-17T11:32:47.507Z",
+    "master_keywords": 20,
+    "mapped_keywords": "[\"Initial Adviser Charge (Regulars)\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-17T12:10:31.555Z",
+    "updated_time": "2021-06-21T10:44:16.797Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Total paid\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your Investment Account phased lump sum",
+    "is_multi": 1,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 22,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T05:09:19.502Z",
+    "updated_time": "2021-06-21T05:09:19.502Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Your total payment\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your Investment Accountlump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T05:11:00.757Z",
+    "updated_time": "2021-06-21T05:11:00.757Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Adviser Initial Fee\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your Investment Accountlump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T06:27:57.923Z",
+    "updated_time": "2021-06-21T06:27:57.923Z",
+    "master_keywords": 16,
+    "mapped_keywords": "[\"Total amount of transfer\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 25,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T06:31:13.766Z",
+    "updated_time": "2021-06-21T06:31:13.766Z",
+    "master_keywords": 15,
+    "mapped_keywords": "[\"Adviser Initial Fee (\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your transfer",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 26,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T06:37:12.040Z",
+    "updated_time": "2021-06-21T06:46:49.766Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[\"Total\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Personal monthly savings into your account",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T06:41:05.509Z",
+    "updated_time": "2021-06-21T06:41:05.509Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[\"Your total monthly payment\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Monthly savings into your Investment Account",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:26:08.383Z",
+    "updated_time": "2021-06-21T07:26:24.233Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Total\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Employer lump sum payment",
+    "is_multi": 1,
+    "amount_type": "HIGH"
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 29,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:29:30.140Z",
+    "updated_time": "2021-06-23T19:06:55.540Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Your total payment\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 30,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:37:20.331Z",
+    "updated_time": "2021-06-23T18:15:47.484Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[\"Your total monthly payment\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Monthly savings into your InvestmentISA",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 31,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:41:25.499Z",
+    "updated_time": "2021-06-21T07:41:25.499Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Total paid\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA phased lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 32,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:42:28.875Z",
+    "updated_time": "2021-06-21T07:42:28.875Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Adviser Initial Fee\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA phased lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 33,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:49:38.715Z",
+    "updated_time": "2021-06-21T07:49:50.040Z",
+    "master_keywords": 18,
+    "mapped_keywords": "[\"Your total monthly payment\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Monthly savings into your Investment Account",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 34,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:52:52.652Z",
+    "updated_time": "2021-06-21T07:52:52.652Z",
+    "master_keywords": 16,
+    "mapped_keywords": "[\"Total amount of transfer\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA Transfer to FundsNetwork",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 35,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T07:53:39.824Z",
+    "updated_time": "2021-06-21T07:53:39.824Z",
+    "master_keywords": 15,
+    "mapped_keywords": "[\"Adviser Initial Fee (\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA Transfer to FundsNetwork",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 36,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T08:00:22.044Z",
+    "updated_time": "2021-06-21T08:00:22.044Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Total paid\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA phased lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 37,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-21T08:00:52.744Z",
+    "updated_time": "2021-06-21T08:00:52.744Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Adviser Initial Fee\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA phased lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 38,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-22T05:38:40.784Z",
+    "updated_time": "2021-06-22T05:38:40.784Z",
+    "master_keywords": 17,
+    "mapped_keywords": "[\"Current Value\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 39,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-22T05:39:34.417Z",
+    "updated_time": "2021-06-22T05:39:34.417Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Ad hoc Adviser Charge\"]",
+    "is_value_based": true,
+    "position": "SR",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 10,
+    "table_head": null,
+    "is_multi": 0,
+    "amount_type": null
+  }
+},
+{
+  "model": "clients.illustrationkeywordmapping",
+  "pk": 40,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-06-23T10:19:09.222Z",
+    "updated_time": "2021-06-23T10:19:09.222Z",
+    "master_keywords": 19,
+    "mapped_keywords": "[\"Adviser Initial Fee\\u00a3\"]",
+    "is_value_based": true,
+    "position": "TXT",
+    "description_endswith": "[]",
+    "keyword_status": "0",
+    "provider": 12,
+    "table_head": "Your InvestmentISA lump sum",
+    "is_multi": 0,
+    "amount_type": null
+  }
+}
+]
