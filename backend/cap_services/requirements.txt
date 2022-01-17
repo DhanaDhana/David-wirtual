@@ -25,10 +25,10 @@ django-tinymce==3.3.0
 #not to be uppgraded further. Else timezone dependency error will occur for o365 event fetch
 tzlocal==2.1
 
-cap_services/customize_apps/cap_outlook_service-dev_for_cap_service.zip
-cap_services/customize_apps/htmldocx-master.zip
-cap_services/customize_apps/python-o365-master.zip
-cap_services/customize_apps/drf-api-logger-master.zip
+customize_apps/cap_outlook_service-dev_for_cap_service.zip
+customize_apps/htmldocx-master.zip
+customize_apps/python-o365-master.zip
+customize_apps/drf-api-logger-master.zip
 
 
 #git+ssh://git@git.ndzhome.com/david/cap_outlook_service.git@dev_for_cap_service
@@ -36,3 +36,4 @@ cap_services/customize_apps/drf-api-logger-master.zip
 #git+ssh://git@git.ndzhome.com:/sidharth/htmldocx.git@master
 
 
+#if any issues with pikepdf version, check for python compatibility. Ref:- https://buildmedia.readthedocs.org/media/pdf/pikepdf/latest/pikepdf.pdf ->1.1 Requirements
