@@ -146,7 +146,7 @@ DATABASES = {
     #'default': {
     'mongo_db': {
            'ENGINE': config('MONGO_DB_ENGINE'),
-           'ENFORCE_SCHEMA': False ,
+           # 'ENFORCE_SCHEMA': False ,
            'NAME':  config('MONGO_DB_NAME'),
            #'HOST': "127.0.0.1",
            #'PORT' : 27017,
@@ -154,14 +154,14 @@ DATABASES = {
            #'PASSWORD' : "lol!@#CAP",
            #'AUTH_SOURCE': "cap_dev2020",
            #'AUTH_MECHANISM': 'SCRAM-SHA-1'
-           'CLIENT': {
-               'host': config('MONGO_DB_HOST'),
-               'port': 27017,
-               'username': config('MONGO_DB_USER'),
-               'password': config('MONGO_DB_PASSWORD'),
-               'authSource': config('MONGO_DB_NAME'),
-               'authMechanism': 'SCRAM-SHA-1'
-           }
+           # 'CLIENT': {
+           #     'host': config('MONGO_DB_HOST'),
+           #     'port': 27017,
+           #     'username': config('MONGO_DB_USER'),
+           #     'password': config('MONGO_DB_PASSWORD'),
+           #     'authSource': config('MONGO_DB_NAME'),
+           #     'authMechanism': 'SCRAM-SHA-1'
+           # }
      }
 
 
