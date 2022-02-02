@@ -14,8 +14,8 @@ from django.core.files import File
 from xhtml2pdf import pisa
 import datetime
 from .checklist import update_or_create_checklist,delete_checklist
-from .common.libreoffice import run as update_doc
-from .common.libreoffice import run_S3 as update_S3doc
+# from .common.libreoffice import run as update_doc
+# from .common.libreoffice import run_S3 as update_S3doc
 from cap_services.settings import IS_S3, MEDIA_ROOT
 from outlook_app.utils import templatemailsend
 import pikepdf

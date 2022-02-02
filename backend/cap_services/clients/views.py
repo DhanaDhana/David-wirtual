@@ -57,8 +57,8 @@ from .serializers import ClientSerializer, UserSerializer, CompanySerializer, Do
     AdvisorProfileSerializer ,ErrorlogSerializer
     # SmartSearchSerializer
 from data_collection.models import SurveyFormData
-from .common.libreoffice import run as update_doc
-from .common.libreoffice import run_S3 as update_S3doc
+# from .common.libreoffice import run as update_doc
+# from .common.libreoffice import run_S3 as update_S3doc
 import re
 from django.core.files import File
 import io
