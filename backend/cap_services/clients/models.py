@@ -913,7 +913,7 @@ class ExtractionKeywordMapping(CapBaseModel):
     
     def __str__(self):
         # return self.instrument.instrument_name+' - '+self.master_keywords.keyword
-        return self.instrument
+        return str(self.instrument)
 
     POSITIONS = [
         ('SR', 'SAME_ROW'),
