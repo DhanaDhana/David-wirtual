@@ -972,10 +972,10 @@ class ClientViewSet(viewsets.ModelViewSet):
             queryset = queryset.filter(company__name__icontains=company)
         if referred_by is not None:
             queryset = queryset.annotate(full_name=Concat('referred_by__first_name', V(' '), 'referred_by__last_name')).filter(full_name__icontains=referred_by)
-        if referred_date is not None:
+        if referred_date is not None and referred_date is not '':
             queryset = queryset.filter(referred_date=referred_date)
 
-        if enable_cold_calling is not None:
+        if enable_cold_calling is not None and enable_cold_calling == 'true':
             queryset = queryset.filter(enable_cold_calling=enable_cold_calling)
         if advisor is not None:
             if daily=='true' or monthly=='true' or weekly=='true':
