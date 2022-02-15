@@ -99,6 +99,7 @@ REST_FRAMEWORK = {
     'EXCEPTION_HANDLER': 'clients.exceptions.custom_exception_handler',
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',  # For swagger
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE':10,
 }
 
 SWAGGER_SETTINGS = {
