@@ -1,0 +1,11 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+htmldocx/__init__.py
+htmldocx.egg-info/PKG-INFO
+htmldocx.egg-info/SOURCES.txt
+htmldocx.egg-info/dependency_links.txt
+htmldocx.egg-info/requires.txt
+htmldocx.egg-info/top_level.txt

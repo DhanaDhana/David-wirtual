@@ -25,6 +25,7 @@ urlpatterns = [
     path('api/', include('clients.urls')),
     path('api/', include('outlook_app.urls')),
     path('api/', include('data_collection.urls')),
+    path('api/', include('fee_manage.urls')),
     path('api/', include('dashboard.urls')),
     path('swagger/', schema_view, name='swagger'),
     path('tinymce/', include('tinymce.urls'))

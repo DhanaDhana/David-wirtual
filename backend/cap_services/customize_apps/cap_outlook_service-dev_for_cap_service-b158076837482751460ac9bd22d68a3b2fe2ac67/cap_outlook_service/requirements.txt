@@ -1,0 +1,6 @@
+Django==2.2
+celery==4.4.7
+redis==3.5.3
+psycopg2==2.8.5
+#O365==2.0.10
+#git+ssh://git@git.ndzhome.com/ganesh/python-o365.git@master

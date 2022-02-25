@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: outlook-services
+Version: 0.3.2
+Summary: outlook_services
+Home-page: http://git.ndzhome.com/David/cap_outlook_service
+Author: webmaster
+Author-email: ganesh@ndimensionz.com
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django/GAE
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+

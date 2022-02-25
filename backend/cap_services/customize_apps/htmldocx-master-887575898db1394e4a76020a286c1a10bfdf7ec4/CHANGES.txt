@@ -1,0 +1,4 @@
+v0.0.1 2019 May 31 -- Initial release
+v0.0.2 2019 Jun 2 -- Fix run method, add handling basic tables, options to skip elements, basic input validation
+v0.0.3 2019 Jun 3 -- Add method add_html_to_cell
+v0.0.4 2019 Sep 3 -- Handle nested tables, can add images to table cells

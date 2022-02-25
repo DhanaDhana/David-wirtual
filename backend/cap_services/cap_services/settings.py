@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
      'clients',
     'data_collection',
+    'fee_manage',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
@@ -66,7 +67,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'dashboard',
     'storages',
-    'tinymce'
+    'tinymce',
 
 ]
 
@@ -157,10 +158,10 @@ DATABASES = {
            'CLIENT': {
                'host': config('MONGO_DB_HOST'),
                'port': 27017,
-               'username': config('MONGO_DB_USER'),
-               'password': config('MONGO_DB_PASSWORD'),
+            #    'username': config('MONGO_DB_USER'),
+            #    'password': config('MONGO_DB_PASSWORD'),
                'authSource': config('MONGO_DB_NAME'),
-               'authMechanism': 'SCRAM-SHA-1'
+            #    'authMechanism': 'SCRAM-SHA-1'
            }
      }
 

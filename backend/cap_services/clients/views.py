@@ -57,8 +57,8 @@ from .serializers import ClientSerializer, UserSerializer, CompanySerializer, Do
     AdvisorProfileSerializer ,ErrorlogSerializer
     # SmartSearchSerializer
 from data_collection.models import SurveyFormData
-from .common.libreoffice import run as update_doc
-from .common.libreoffice import run_S3 as update_S3doc
+# from .common.libreoffice import run as update_doc
+# from .common.libreoffice import run_S3 as update_S3doc
 import re
 from django.core.files import File
 import io
@@ -367,8 +367,7 @@ class UserForgotPassword(APIView):
                 send_alternate_password(user, new_password)
                 response_data['status_code'] = '200'
                 response_data['status'] = True
-                response_data[
-                    'message'] = 'New password has been sent to your email account. Kindly check and reset with new password'
+                response_data['message'] = 'New password has been sent to your email account. Kindly check and reset with new password'
         else:
             response_data['status_code'] = '400'
             response_data['status'] = False
