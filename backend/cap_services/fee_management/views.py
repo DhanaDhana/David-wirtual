@@ -21,9 +21,7 @@ from rest_framework import permissions
 from clients.permissions import IsAdvisor, IsAdministrator, IsOps, IsCompliance, IsAll
 # from django.contrib.auth.models import User, Group, Permission
 
-def home(request):
-    return HttpResponse("hello")
-    
+# view
 
 class IsSuperUser(IsAdminUser):
     required_groups=['SuperAdmin']
