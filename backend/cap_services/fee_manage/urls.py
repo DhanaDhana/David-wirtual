@@ -13,9 +13,9 @@ router.register('clientlist-monthly-issue',views.clientDetailsInMonthlyIssue, ba
 urlpatterns = [
     path('home/',views.home),
     path('getUser',views.getUsers.as_view()),
-    path('advisor/monthly-issue/',views.searchAdvisorsForMonthlyIssue.as_view()),
-    path('search-advisor-pending-issue/',views.searchAdvisorPendingIssue.as_view()),
-    path('advisor-list-pending-issue/',views.advisorDetailsInPending.as_view()),
+    path('advisor/monthly-issue/',views.searchAdvisorsForMonthlyIssue.as_view(),name = 'advisormonthlyissue'),
+    path('search-advisor-pending-issue/',views.searchAdvisorPendingIssue.as_view(),name = 'advisorPendingIssue'),
+    path('advisor-list-pending-issue/',views.advisorDetailsInPending.as_view(),name = 'advisorListPending'),
 ]
 
 
