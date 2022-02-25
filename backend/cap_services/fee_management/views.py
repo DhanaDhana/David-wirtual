@@ -145,6 +145,7 @@ class searchAdvisorsForMonthlyIssue(APIView):
                    
                 
 class providerUnderAdvisorViewset(viewsets.ModelViewSet):
+    #test
     permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     serializer_class = Income_IssuedSerializer
     queryset = Income_Issued.objects.all()
