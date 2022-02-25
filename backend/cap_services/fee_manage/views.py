@@ -106,7 +106,6 @@ class searchAdvisorsForMonthlyIssue(APIView):
                     
                     ongoingIncomeAdvisor=providerStatementInfo_obj.values_list('statement__ongoing_fee',flat=True)
                     intialIncomeAdvisor=providerStatementInfo_obj.values_list('statement__initial_fee',flat=True)
-                    intialIncomeAdvisor=providerStatementInfo_obj.values_list('statement__initial_fee',flat=True)
                     totalIncomeAdvisor=providerStatementInfo_obj.values_list('statement__total_monthly_fee',flat=True)
                     
                     data.append(
