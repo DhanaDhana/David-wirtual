@@ -11,6 +11,7 @@ from clients.models import CapBaseModel
 class Provider_StatementInfo(CapBaseModel):
     """
     Provider_StatementInfo description
+    test line
     """  
     
     policy_number=models.CharField(max_length=15, null=True, blank=True)
