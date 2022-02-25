@@ -21,6 +21,7 @@ django-storages==1.11.1
 docxcompose==1.3.2
 pikepdf==2.12.1
 django-tinymce==3.3.0
+pymongo==3.11.0 #dependency for djongo 1.3.3, higher pymongo versions are incompatible with djongo
 
 #not to be uppgraded further. Else timezone dependency error will occur for o365 event fetch
 tzlocal==2.1

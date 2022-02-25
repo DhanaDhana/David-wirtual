@@ -1,0 +1,431 @@
+[
+{
+  "model": "clients.provider",
+  "pk": 9,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-09-30T08:10:52.031Z",
+    "updated_time": "2021-04-21T09:01:35.549Z",
+    "name": "Aviva",
+    "provider_logo": "Logo-Aviva.jpg"
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 10,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2020-09-30T08:12:10.884Z",
+    "updated_time": "2021-04-21T09:01:45.146Z",
+    "name": "Aegon",
+    "provider_logo": "aegon_logo.png"
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 12,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T06:54:13.151Z",
+    "updated_time": "2021-04-21T09:01:55.644Z",
+    "name": "Fidelity",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 13,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:32:02.488Z",
+    "updated_time": "2021-07-12T12:31:44.340Z",
+    "name": "BAML",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 14,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:36:02.197Z",
+    "updated_time": "2021-04-21T09:02:17.631Z",
+    "name": "AJ Bell",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 17,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:37:04.812Z",
+    "updated_time": "2021-04-21T09:02:26.555Z",
+    "name": "Hargreaves Landsdown",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 18,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:37:36.535Z",
+    "updated_time": "2021-04-21T09:02:37.739Z",
+    "name": "JLT",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 19,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:37:54.641Z",
+    "updated_time": "2021-04-21T09:02:49.311Z",
+    "name": "L&G",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 21,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:38:21.357Z",
+    "updated_time": "2021-04-21T09:02:58.043Z",
+    "name": "OMW",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 23,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:38:59.581Z",
+    "updated_time": "2021-04-21T09:03:09.022Z",
+    "name": "Royal London",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 24,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:39:08.181Z",
+    "updated_time": "2021-07-12T12:04:15.802Z",
+    "name": "Scottish Widows",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 25,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:39:19.155Z",
+    "updated_time": "2021-04-21T09:03:27.341Z",
+    "name": "SJP",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 26,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:39:28.724Z",
+    "updated_time": "2021-04-21T09:03:36.735Z",
+    "name": "Standard Life",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 27,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:39:35.407Z",
+    "updated_time": "2021-04-21T09:04:43.447Z",
+    "name": "Sun Life of Canada",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 28,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-14T12:39:43.291Z",
+    "updated_time": "2021-04-21T09:14:34.410Z",
+    "name": "Willis Towers Watson",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 30,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-16T07:42:07.619Z",
+    "updated_time": "2021-04-21T09:14:43.403Z",
+    "name": "Capita",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 31,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-17T09:33:43.442Z",
+    "updated_time": "2021-04-21T09:14:55.562Z",
+    "name": "AON",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 32,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-17T10:44:34.533Z",
+    "updated_time": "2021-04-21T09:15:03.807Z",
+    "name": "BlackRock",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 33,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-17T11:28:41.200Z",
+    "updated_time": "2021-04-21T09:15:11.167Z",
+    "name": "Lifesight",
+    "provider_logo": ""
+  }
+},
+{
+    "model": "clients.provider",
+    "pk": 35,
+    "fields": {
+      "is_deleted": true,
+      "create_time": "2021-03-14T12:38:21.357Z",
+      "updated_time": "2021-04-21T09:02:58.043Z",
+      "name": "Old Mutual",
+      "provider_logo": ""
+    }
+  },
+{
+  "model": "clients.provider",
+  "pk": 36,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-17T16:39:36.613Z",
+    "updated_time": "2021-04-21T09:15:24.724Z",
+    "name": "ReAssure",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 37,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T08:04:14.811Z",
+    "updated_time": "2021-04-21T09:16:03.559Z",
+    "name": "RBS",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 38,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T08:05:18.947Z",
+    "updated_time": "2021-04-21T09:16:12.272Z",
+    "name": "Prudential",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 39,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T08:05:43.983Z",
+    "updated_time": "2021-04-21T09:16:19.551Z",
+    "name": "Phoenix Life",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 40,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T08:06:24.822Z",
+    "updated_time": "2021-04-21T09:16:26.092Z",
+    "name": "MMC",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 41,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T08:08:02.824Z",
+    "updated_time": "2021-04-21T09:16:34.066Z",
+    "name": "AXA",
+    "provider_logo": ""
+  }
+},
+{
+    "model": "clients.provider",
+    "pk": 42,
+    "fields": {
+      "is_deleted": true,
+      "create_time": "2021-03-14T12:39:08.181Z",
+      "updated_time": "2021-07-12T12:04:15.802Z",
+      "name": "Scotish windows core",
+      "provider_logo": ""
+    }
+  },
+{
+  "model": "clients.provider",
+  "pk": 45,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T13:15:12.289Z",
+    "updated_time": "2021-04-21T09:16:47.343Z",
+    "name": "Zurich",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 46,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T14:27:54.412Z",
+    "updated_time": "2021-04-21T09:16:52.937Z",
+    "name": "Barnett Waddingham",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 47,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T15:01:57.628Z",
+    "updated_time": "2021-04-21T09:16:58.767Z",
+    "name": "Dentons",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 48,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T15:51:30.895Z",
+    "updated_time": "2021-04-21T09:17:04.925Z",
+    "name": "HSBC",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 49,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-18T16:24:48.075Z",
+    "updated_time": "2021-04-21T09:17:11.212Z",
+    "name": "LV",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 50,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T07:00:24.750Z",
+    "updated_time": "2021-04-21T09:17:17.310Z",
+    "name": "NEST",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 51,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-19T07:19:35.229Z",
+    "updated_time": "2021-04-21T09:17:23Z",
+    "name": "NFU Mutual",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 52,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-22T05:47:33.586Z",
+    "updated_time": "2021-04-21T09:17:28.945Z",
+    "name": "Alliance Trust",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 53,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-03-22T09:41:59.560Z",
+    "updated_time": "2021-04-21T09:17:34.664Z",
+    "name": "Lloyds",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 54,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-04-28T05:35:56.563Z",
+    "updated_time": "2021-05-05T06:20:52.402Z",
+    "name": "Nutmeg",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 55,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-05-08T02:17:59.741Z",
+    "updated_time": "2021-05-08T02:17:59.741Z",
+    "name": "Quilter",
+    "provider_logo": ""
+  }
+},
+{
+  "model": "clients.provider",
+  "pk": 56,
+  "fields": {
+    "is_deleted": false,
+    "create_time": "2021-07-12T07:30:38.676Z",
+    "updated_time": "2021-07-12T07:30:38.676Z",
+    "name": "Cash",
+    "provider_logo": ""
+  }
+}
+]

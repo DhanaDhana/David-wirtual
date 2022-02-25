@@ -458,11 +458,14 @@ class ClientSerializer(serializers.ModelSerializer):
     company_id = serializers.SerializerMethodField()
     advisor = serializers.SerializerMethodField()
 
+    #added for fee management
+    ni_number = serializers.CharField(required = False, allow_null = True)
+
     class Meta:
         model = Client
         fields = ('id', 'user', 'phone_number', 'referred_by_id', 'referred_date', 'company', 'enable_cold_calling',
                   'referred_user_first_name', 'referred_user_last_name', 'referred_user_email',
-                  'referred_user_phone_number', 'company_id','net_worth','pre_contract_percent','atp_percent','post_contract_percent','is_confirmed_client','created_by','current_task_id','is_survey_updated','advisor')
+                  'referred_user_phone_number', 'company_id','net_worth','pre_contract_percent','atp_percent','post_contract_percent','is_confirmed_client','created_by','current_task_id','is_survey_updated','advisor', 'ni_number')
         read_only_fields = ('pre_contract_percent','atp_percent','post_contract_percent','created_by',)
     
     def get_advisor(self, obj):
@@ -513,6 +516,12 @@ class ClientSerializer(serializers.ModelSerializer):
         except Exception as e:
             print(str(e))
 
+    def get_ni_number(self, obj):
+        if obj.ni_number:
+            return obj.ni_number
+        else:
+            return ""
+
     def create(self, validated_data):
         """
         Overriding the default create method of the Model serializer.
@@ -523,6 +532,7 @@ class ClientSerializer(serializers.ModelSerializer):
         #TO DO - ADD A 'TASK ADDED' ENTRY INTO DB WHEN THE CONFIRMATION FROM ADVISOR SIDE IS DONE AND PASSED TO OPS
 
         user_data = validated_data.pop('user')
+        print("||| | |  |  | This is the validated data |  |  | | | |||",validated_data)
         user = UserSerializer.create(UserSerializer(), validated_data=user_data)
         company_obj, created = Company.objects.get_or_create(name=validated_data.pop('company'))
         status = StatusCollection.objects.get(status='1.1')
@@ -754,6 +764,7 @@ class ClientInstrumentInfoSerializer(serializers.ModelSerializer):
         :param validated_data: data containing all the details of clientinstruments
         :return: returns a successfully created clientinstrument record
         """
+        print("||| | | |  |  |   |",validated_data,len(validated_data))
         client_obj = Client.objects.get(id=validated_data.pop('client_id'))
         instrument_obj = Instrument.objects.get(id=validated_data.pop('instrument_id'))
         provider_obj = Provider.objects.get(id=validated_data.pop('provider_id'))
@@ -766,6 +777,7 @@ class ClientInstrumentInfoSerializer(serializers.ModelSerializer):
         try:
             client_instrument = ClientInstrumentInfo.objects.create(client=client_obj,instrument=instrument_obj,provider=provider_obj,created_by=user_obj,\
                                                                instrument_status=status,**validated_data)
+            print("-------------- |||||||| YES CREATED |||||||| -------------------")
             try:
 
                 if(client_instrument.provider_type==1):

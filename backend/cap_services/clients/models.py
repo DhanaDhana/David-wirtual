@@ -282,6 +282,10 @@ class Client(CapBaseModel):
     age=models.PositiveIntegerField(null=True)
     retire_age=models.PositiveIntegerField(null=True)
 
+    #additionaly added for fee management
+
+    ni_number = models.CharField(max_length = 20, null = True)
+
     def __str__(self):
         return self.user.username
 
@@ -912,7 +916,8 @@ class IllustrationKeywordMapping(CapBaseModel):
 class ExtractionKeywordMapping(CapBaseModel):
     
     def __str__(self):
-        return self.instrument.instrument_name+' - '+self.master_keywords.keyword
+        # return self.instrument.instrument_name+' - '+self.master_keywords.keyword
+        return str(self.instrument)
 
     POSITIONS = [
         ('SR', 'SAME_ROW'),

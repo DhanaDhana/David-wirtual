@@ -217,6 +217,9 @@ def audioconversion(path, Record, request):
 class CustomObtainAuthToken(ObtainAuthToken):
 
     def post(self, request, *args, **kwargs):
+        print("--------------------------------------")
+        print(request.data)
+        print("--------------------------------------")
         serializer = self.serializer_class(data=request.data,
                                            context={'request': request})
         
@@ -874,14 +877,22 @@ class DocumentViewSet(viewsets.ModelViewSet):
 class ClientViewSet(viewsets.ModelViewSet):
     permission_classes = (IsAuthenticated, IsAll,)
     serializer_class = ClientSerializer
+    print("------------------ 1 --------------------------- \n\n")
 
+    print("Note the Request Body:\n")
+    # print(request.query_params)
+    # print("\n\n",request.data)
     def fetch_surveyform_details(self, data, client_id):
+
         data['about'] = None
         data['job_title'] = None
         data['ni_number'] = None
         data['reminder_count'] = None
         data['joining_date'] = None
+
+        print("------------------ 1.1  fetch_surveyform_details --------------------------- \n\n")
         if client_id is not None:
+            print("------------------ 1.1  fetch_surveyform_details: Client_id True --------------------------- \n\n")
            
             reminder_queryset = Reminder.objects.filter(client__id=client_id, reminder_date__lte=datetime.date.today(), snooze_status='2')
             data['reminder_count'] = reminder_queryset.count()
@@ -895,7 +906,9 @@ class ClientViewSet(viewsets.ModelViewSet):
             category = CategoryAndSubCategory.objects.filter(category_slug_name='personal_information_7').first()
             if category:
                 surveyform = SurveyFormData.objects.filter(client_id=client_id, category_id=category.id).first()
+                print("------------------ 1.2  fetch_surveyform_details: category True --------------------------- \n\n")
             if surveyform is not None:
+                print("------------------ 1.1  fetch_surveyform_details: SurveyForm True --------------------------- \n\n")
                 for subcategory in surveyform.form_data:
                     label_list = subcategory['subcategory_data']
                     if subcategory['subcategory_slug_name'] == "basic_info_8":
@@ -929,6 +942,11 @@ class ClientViewSet(viewsets.ModelViewSet):
 
     
     def get_queryset(self):
+        print("\n\n------------------ 2  get_queryset True--------------------------- \n\n")
+        print("\n\ninside get_queryset param\n\n\n")
+        print(self.request.query_params,"\n\n\n\n")
+        print(self.request.data)
+        print("-------------------------------------------------------------")
         queryset = Client.objects.all()
         name = self.request.query_params.get('name', None)
         email = self.request.query_params.get('email', None)
@@ -946,6 +964,8 @@ class ClientViewSet(viewsets.ModelViewSet):
         monthly = self.request.query_params.get('monthly', None)
         limit = self.request.query_params.get('limit', None)
 
+        print("--------------------------------------------------------")
+
         #To check if mobile number already exists during survey edit
         survey_client_id = self.request.query_params.get('survey_client', None)
         if survey_client_id:
@@ -960,21 +980,28 @@ class ClientViewSet(viewsets.ModelViewSet):
         queryset = queryset.order_by('-create_time') 
 
         if client_list_added_by_me == 'true':
+            print("------ client_list_added_by_me is not None ------------")
             queryset = queryset.filter(created_by=self.request.user).order_by('-create_time')  # [:4]
         if name is not None:
+            print("------ name is not None ------------", name)
             queryset = queryset.annotate(full_name=Concat('user__first_name', V(' '), 'user__last_name')).filter(full_name__icontains=name)
         if email is not None:
+            print("------ email is not None ------------", email)
             queryset = queryset.filter(user__email__contains=email)
         if mob_number is not None:
+            print("------ mob_number is not None ------------", mob_number)
             queryset = queryset.filter(phone_number__contains=mob_number)
         if company is not None:
+            print("------ company is not None ------------", company)
             queryset = queryset.filter(company__name__icontains=company)
         if referred_by is not None:
+            print("------ referred_by is not None ------------", referred_by)
             queryset = queryset.annotate(full_name=Concat('referred_by__first_name', V(' '), 'referred_by__last_name')).filter(full_name__icontains=referred_by)
-        if referred_date is not None:
+        if referred_date is not None and referred_date is not '':
+            print("------ referred_date is not None ------------", referred_date)
             queryset = queryset.filter(referred_date=referred_date)
 
-        if enable_cold_calling is not None:
+        if enable_cold_calling is not None and enable_cold_calling == 'true':
             queryset = queryset.filter(enable_cold_calling=enable_cold_calling)
         if advisor is not None:
             if daily=='true' or monthly=='true' or weekly=='true':
@@ -1006,16 +1033,19 @@ class ClientViewSet(viewsets.ModelViewSet):
         return queryset
 
     def list(self, request, *args, **kwargs):
+        print("------------------ 3. list--------------------------- \n\n")
         queryset = self.filter_queryset(self.get_queryset())
         count = offset = limit = None
         page = self.paginate_queryset(queryset)
         if page is not None:
+            print(" --- its not none --- paginator ---")
             serializer = self.get_serializer(page, many=True)
             data = serializer.data
             count = self.paginator.count
             offset = self.paginator.offset
             limit = self.paginator.limit
         else:
+            print(" --- ELSE --- paginator ---")
             serializer = self.get_serializer(queryset, many=True)
             data = serializer.data
 
@@ -1031,7 +1061,12 @@ class ClientViewSet(viewsets.ModelViewSet):
         return Response(response_data, status=status.HTTP_200_OK)
 
     def retrieve(self, request, *args, **kwargs):
+        print("------------------ 4.retrieve --------------------------- \n\n")
+        print("inside RETRIEVE \n\n")
+        print(self.request.query_params,"\n\n\n\n")
+        print("-------------------------------------------------------------\n\n")
         data = super().retrieve(request, *args, **kwargs).data
+        print("DATA:::", data)
         instance = self.get_object()
         profile_data = self.request.query_params.get('profile_data', None)
         if profile_data:
@@ -1045,6 +1080,11 @@ class ClientViewSet(viewsets.ModelViewSet):
         return Response(response_data, status=status.HTTP_200_OK)
 
     def perform_create(self, serializer):
+        print("------------------ 5.perform_create --------------------------- \n\n")
+        print("\n\ninside get_queryset param\n\n\n")
+        print(self.request.query_params,"\n\n\n\n")
+        print(self.request.data)
+        print("-------------------------------------------------------------")
         if type(serializer.initial_data) == list:
             for item in serializer.initial_data:
                 referred_mail = item.pop('referred_person_email')
@@ -1058,6 +1098,13 @@ class ClientViewSet(viewsets.ModelViewSet):
         serializer.save()
 
     def create(self, request, *args, **kwargs):
+        print("------------------ 6. create --------------------------- \n\n")
+        print("\n\ninside get_queryset param\n\n\n")
+        print("----------------------------- || --------------------------------")
+        print(self.request.query_params,"\n\n\n\n")
+        print(self.request.data)
+        print("------------------------------ || -------------------------------")
+        # print(ad)
         response_data = {}
         error_list = []
         client = "client"
@@ -1076,7 +1123,11 @@ class ClientViewSet(viewsets.ModelViewSet):
                 else:
                     email_list.append(item['user']['email'])
                     phone_list.append(item['phone_number'])
+        print("--------------------------------------------------------------------")
+        print("DATA: ",request.data)
         serializer = self.get_serializer(data=request.data, many=many)
+        print("serializer : : : ",serializer)
+        print("--------------------------------------------------------------------")
 
         if not many:
             referred_user = request.data.get('referred_by_id', '')
@@ -1095,7 +1146,9 @@ class ClientViewSet(viewsets.ModelViewSet):
                     raise serializers.ValidationError({"email": ["A user with that email already exists."]})
                 except User.DoesNotExist:
                     print("User does not exist exception..!!")
+            print("-------------------------------- 1 ----------------------------------")
             serializer.is_valid(raise_exception=True)
+            print("-------------------------------- 2 ----------------------------------")
 
         try:
             self.perform_create(serializer)
@@ -1116,7 +1169,11 @@ class ClientViewSet(viewsets.ModelViewSet):
                 response_data['message'] = 'You have added ' + str(counter - len(error_list)) + '/' + str(
                     counter) + ' clients details.Below profiles are already added.'
             else:
+                print("FINAL RESULT:::\n\n",serializer.data,"\n\n\n\n___________________\n\n\n")
                 response_data['message'] = 'You have successfully added the' + " " + client + " " + 'details'
+                response_data['data'] = [{
+                'addedClient':serializer.data
+                }]
 
         if response_data['status_code'] == '400':
             resp_status = status.HTTP_400_BAD_REQUEST
@@ -1125,6 +1182,8 @@ class ClientViewSet(viewsets.ModelViewSet):
         return Response(response_data, status=resp_status)
 
     def update(self, request, *args, **kwargs):
+
+        print("------------------ 7. update --------------------------- \n\n")
         instance = self.get_object()
         response_data = {}
         serializer = self.get_serializer(instance, data=request.data)
@@ -1158,6 +1217,7 @@ class ClientViewSet(viewsets.ModelViewSet):
 
     @action(methods=['get'], detail=False, name='User exist_check')
     def exist(self, request, *args, **kwargs):
+        print("------------------ 8. UPDATE --------------------------- \n\n")
         response_data = {}
         data = {'alreadyExists': False}
         ph_number=request.query_params.get('mob_number', None)
@@ -1193,9 +1253,12 @@ class ProviderViewSet(viewsets.ModelViewSet):
         recently_added_provider_list = self.request.query_params.get('recently_added_provider_list', None)
         client_id = self.request.query_params.get('client_id', None)
         provider_type = self.request.query_params.get('provider_type', None)
+        print("---- ---- ----- yes its true ----- ---- ---- --- ")
         if recently_added_provider_list == 'true':
+            print("---- ---- ----- yes its true ----- ---- ---- --- ")
             client_instrument_list = ClientInstrumentInfo.objects.filter(created_by=self.request.user, is_active=True).order_by('-create_time')
             if client_instrument_list is not None:
+                print("---- ---- ----- AGIAN yes its true ----- ---- ---- --- ")
                 provider_list = []
                 provider_list_maxlen = 10  # recently added 10 providers
                 for client_instrument in client_instrument_list:
@@ -1292,7 +1355,14 @@ class ClientInstrumentInfoViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         try:
+            print("-------------- |||||||| 1 |||||||| -------------------")
+            print(request.__dict__)
+            print("-------------------------------------------------------")
+            print("\n\nDAATA\n\n")
+            print(request.data)
+            print("------------------------------------------------------")
             response = super().create(request)
+            print("-------------- |||||||| 2 |||||||| -------------------")
             client_instr_count = len(request.data)
             client = Client.objects.filter(id=request.data[0]['client_id']).first()
             client_profile_completion(client=client,phase='pre-contract',percentage=10,sign='positive',client_instr_count=client_instr_count,obj='client-instrument-info') 
@@ -2015,6 +2085,7 @@ class TemplateViewSet(viewsets.ReadOnlyModelViewSet):
                                                     if sub_lab['answer'] == 'Cash':
                                                         has_cash_asset = True
                                                 if sub_lab['label_slug'] == 'amount_128':
+                                                    print("\n\nSUBLABEL ANSWER: ",sub_lab['answer'])
                                                     asset_value = Decimal(sub_lab['answer'])
                                                    
                                                     
@@ -2036,6 +2107,7 @@ class TemplateViewSet(viewsets.ReadOnlyModelViewSet):
                                         employer = label['answer']
 
                                     if label['label_slug'] == 'salary_51':
+                                        print("\n\nLABEL ANSWER: ",label['answer'],"\n\n")
                                         salary = Decimal(label['answer'])
                                         
                                         
@@ -4698,6 +4770,7 @@ class InstrumentsRecomendedViewSet(viewsets.ModelViewSet):
     def perform_update(self, serializer,old_instances):
         print(old_instances)
         instance=serializer.save()
+        print("\n\nNew Instance ------- : ",instance,"\n\n",instance.__dict__,"\n\n")
         ############draft update checklists##########
         client=instance.client_instrumentinfo.client
         draftchecklist = DraftCheckList.objects.filter(category_name__in=['7', '13','10'])  # draft update checklists#instrument recommended PUT
@@ -4838,7 +4911,7 @@ class InstrumentsRecomendedViewSet(viewsets.ModelViewSet):
         
         serializer.is_valid(raise_exception=True)
         try:
-            print('before doing db update')
+            print('before doing db update',instance,instance.id)
 
             response = self.perform_update(serializer,list(instance.map_transfer_from.all()))
             status_collection = StatusCollection.objects.get(status='1.72')  
@@ -4864,6 +4937,11 @@ class InstrumentsRecomendedViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         response_data = {}
+        print("----------------------------------------------")
+        print("----------------------------------------------")
+        print(request.data)
+        print("----------------------------------------------")
+        print("----------------------------------------------")
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         try:
@@ -4877,6 +4955,7 @@ class InstrumentsRecomendedViewSet(viewsets.ModelViewSet):
             parent_client_instrument = request.data.get('client_instrumentinfo', None)
             if parent_client_instrument:   #clone
                 response_data = {}
+                print("\n\n::::::::::::::::::::::: if WORKED!! :::::::::::::::::::::::::::::\n\n")
                 serializer = self.get_serializer(data=request.data)
                 serializer.is_valid(raise_exception=True)
                 try:
@@ -4984,7 +5063,9 @@ class InstrumentsRecomendedViewSet(viewsets.ModelViewSet):
                 fund_object_value = None
                 if instrument_id_list and client:
                     survey_data = SurveyFormData.objects.filter(client_id=client, category_id=27).last()
+                    print("\n\nfirst if\n\n")
                     if survey_data and survey_data.form_data[0]['subcategory_data'][0]['answer']:
+                        print("Second if\n\n")
                        
                         fund_val = None
                         fund_risk = survey_data.form_data[0]['subcategory_data'][0]['answer']

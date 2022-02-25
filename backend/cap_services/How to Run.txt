@@ -1,0 +1,8 @@
+1. pip3 intall -r requirements.txt
+2. py manage.py migrate
+3. py manage.py makemigrations cap_outlook_service
+4. py manage.py migrate cap_outlook_service
+5. py manage.py makemigrations
+6. py manage.py migrate
+7. py manage.py add_usergroups
+8. py manage.py add_status_and_docSettings
