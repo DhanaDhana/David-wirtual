@@ -18,23 +18,13 @@ from rest_framework import viewsets
 from rest_framework import permissions
 
 # from datetime import datetime
-# from .permissions import IsAdvisor, IsAdministrator, IsOps, IsCompliance, IsAll
+from clients.permissions import IsAdvisor, IsAdministrator, IsOps, IsCompliance, IsAll
 # from django.contrib.auth.models import User, Group, Permission
 
 def home(request):
     return HttpResponse("hello")
     
-class getUsers(APIView):
-    # permission_classes = (IsAuthenticated)
-    pass
-     
-    # def get(self,request):
-    #     users_data = User.objects.all()
-    #     serializers = userSerializer(users_data, many = True)
-    #     return Response(serializers.data) 
-    
-    
-    
+
 class IsSuperUser(IsAdminUser):
     required_groups=['SuperAdmin']
     
@@ -46,7 +36,7 @@ class IsSuperUser(IsAdminUser):
     
     
 class searchAdvisorsForMonthlyIssue(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,IsAll,IsSuperUser)
     
     def get(self,request):
         
@@ -156,7 +146,7 @@ class searchAdvisorsForMonthlyIssue(APIView):
                    
                 
 class providerUnderAdvisorViewset(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,IsSuperUser,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     serializer_class = Income_IssuedSerializer
     queryset = Income_Issued.objects.all()
     
@@ -241,7 +231,7 @@ class providerUnderAdvisorViewset(viewsets.ModelViewSet):
 
         
 class providerDetailsInMonthlyIssue(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,IsSuperUser,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     serializer_class = Income_IssuedSerializer
     queryset = Income_Issued.objects.all()
     
@@ -323,7 +313,7 @@ class providerDetailsInMonthlyIssue(viewsets.ModelViewSet):
            
             
 class advisorDetailsInMonthlyIssue(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,IsSuperUser,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     serializer_class = Income_IssuedSerializer
     queryset = Income_Issued.objects.all()
     
@@ -414,7 +404,7 @@ class advisorDetailsInMonthlyIssue(viewsets.ModelViewSet):
             
             
 class clientDetailsInMonthlyIssue(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,IsSuperUser,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     serializer_class = Income_IssuedSerializer
     queryset = Income_Issued.objects.all()
     
@@ -508,7 +498,7 @@ class clientDetailsInMonthlyIssue(viewsets.ModelViewSet):
             
             
 class searchAdvisorPendingIssue(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     
     def get(self,request):
         
@@ -578,7 +568,7 @@ class searchAdvisorPendingIssue(APIView):
         
         
 class advisorDetailsInPending(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,IsSuperUser,IsAll)
     income_issue_qs=Income_Issued.objects.all()
     
     def get(self,request):
