@@ -1,4 +1,8 @@
 1. pip3 intall -r requirements.txt
+-----------------------------------------------------------------------
+> pip install auditlog
+> pip install reportlab==3.6.6
+------------------------------------------------------------------------
 2. py manage.py migrate
 3. py manage.py makemigrations cap_outlook_service
 4. py manage.py migrate cap_outlook_service
@@ -6,3 +10,6 @@
 6. py manage.py migrate
 7. py manage.py add_usergroups
 8. py manage.py add_status_and_docSettings
+9. py manage.py runserver
+-------------------------------------------------------------------------
+> py manage.py migrate data_collection --database mongo_db
